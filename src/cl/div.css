@@ -1,0 +1,40 @@
+/* 배당 › 지급 내역 히트맵. 칸 = 금액 · 배당률, 농도 = 잉크 4~16%, 예상 = 점선 칸.
+   이름 열 160px · 월 열 최소 72px(Dividend.jsx MIN_W 와 같은 값). 화면 CSS 가 cl.css 보다 먼저 실리므로 .cl-app 범위 */
+.cl-app .cl-dvh-wrap{overflow-x:auto;margin:0 -3px}
+.cl-app .cl-dvh{width:100%;table-layout:fixed;border-collapse:separate;border-spacing:3px;margin:0;font-size:12px;color:var(--body)}
+.cl-app .cl-dvh .cl-dvh-nmcol{width:160px}
+.cl-app .cl-dvh .cl-dvh-totcol{width:88px}
+.cl-app .cl-dvh th,.cl-app .cl-dvh td{padding:0;font-weight:400;text-align:center;white-space:nowrap}
+.cl-app .cl-dvh thead th{font-size:11.5px;color:var(--muted);padding-bottom:2px}
+.cl-app .cl-dvh-yr th{text-align:left;font-size:11px;color:var(--muted);padding:0 0 0 2px}
+.cl-app .cl-dvh thead th.cl-dvh-jan{box-shadow:inset 1px 0 0 var(--hair-strong)}
+.cl-app .cl-dvh .cl-dvh-nm{text-align:left;color:var(--ink);overflow:hidden;text-overflow:ellipsis;padding-right:8px}
+.cl-app .cl-dvh thead .cl-dvh-nm{color:var(--muted)}
+.cl-app .cl-dvh .cl-dvh-tot{text-align:right;font-weight:600;color:var(--ink);padding-left:6px}
+.cl-app .cl-dvh thead .cl-dvh-tot{font-weight:400;color:var(--muted)}
+.cl-app .cl-dvh-c{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1px;height:42px;min-width:0;border-radius:4px;color:var(--ink);overflow:hidden;line-height:1.15}
+.cl-app .cl-dvh-v{font-size:12.5px;white-space:nowrap}
+.cl-app .cl-dvh-r{font-size:10.5px;color:var(--muted);white-space:nowrap;min-height:1.15em}
+.cl-app .cl-dvh-c .cl-mx-up{font-size:.75em;margin-right:2px}
+.cl-app .cl-dvh-exp{border:1.5px dashed var(--muted);background:transparent;color:var(--muted)}
+.cl-app .cl-dvh tfoot th,.cl-app .cl-dvh tfoot td{font-weight:600;color:var(--ink);padding-top:6px;border-top:1px solid var(--hair-strong)}
+.cl-app .cl-dvh tfoot .cl-dvh-nm{font-family:var(--f-ui)}
+.cl-app .cl-dvh-note{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:10px}
+.cl-app .cl-dvh-note > span{display:inline-flex;align-items:center;gap:5px}
+.cl-app .cl-dvh-key{display:inline-block;width:14px;height:10px;border-radius:3px}
+.cl-app .cl-dvh-key.cl-dvh-exp{border-width:1px}
+.cl-app .cl-dvh-expv{color:var(--muted)}
+/* cl.css 의 일반 표 칸(높이 46px·밑줄·행 hover 손가락)을 이 표에서 끈다 */
+.cl-app .cl-dvh td,.cl-app .cl-dvh th{height:auto;border-bottom:0}
+.cl-app .cl-dvh tbody tr{cursor:default}
+@media (hover:hover){.cl-app .cl-dvh tbody tr:hover{background:none}}
+/* 폭 전환: ≥1160(12개월 최소 폭) 12개월 · 640~1160 최근 6개월 · <640 월 목록(원 단위로 쓰므로 단위 조각을 숨긴다) */
+.cl-app .cl-dvh-part,.cl-app .cl-dvh-six{display:none}
+@container panel (width < 1160px){
+  .cl-app .cl-mx-wide.cl-dvh-full{display:none}
+  .cl-app .cl-mx-wide.cl-dvh-part{display:block}
+  .cl-app .cl-dvh-six{display:inline}
+}
+@container panel (width < 640px){
+  .cl-app .cl-mx-wide.cl-dvh-part,.cl-app .cl-dvh-six,.cl-app .cl-dvh-unit{display:none}
+}

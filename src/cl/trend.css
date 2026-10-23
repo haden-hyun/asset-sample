@@ -1,0 +1,9 @@
+/* 자산 추이 — 평가금·입금액 두 선 + 사이 면(DESIGN §4). 색은 토큰만 */
+.cl-app .cl-trend-band-up{fill:var(--rise-wash);stroke:none}
+.cl-app .cl-trend-band-down{fill:var(--fall-wash);stroke:none}
+.cl-app .cl-trend-axfrom{font-size:11px;fill:var(--muted);font-family:var(--f-ui);font-variant-numeric:tabular-nums}
+.cl-app .cl-trend-title{display:flex;align-items:baseline;gap:4px 12px;flex-wrap:wrap;min-width:0}
+.cl-app .cl-trend-fig{font-size:20px;font-weight:600;letter-spacing:-.01em;color:var(--ink)}
+.cl-app .cl-lg-wash-up,.cl-app .cl-lg-wash-down{width:14px;height:10px;border-radius:2px}
+.cl-app .cl-lg-wash-up{background:var(--rise-wash);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--rise) 40%,transparent)}
+.cl-app .cl-lg-wash-down{background:var(--fall-wash);box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--fall) 40%,transparent)}

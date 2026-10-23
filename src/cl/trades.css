@@ -1,0 +1,19 @@
+/* 매매 화면 */
+.cl-app .cl-tx-bar{display:flex;align-items:flex-end;justify-content:space-between;flex-wrap:wrap;gap:8px 16px;margin:24px 0 12px;border-bottom:1px solid var(--hair)}
+.cl-app .cl-tx-bar .cl-tabs{border-bottom:0;margin-bottom:0}
+.cl-app .cl-tx-bar .cl-pseg{margin-bottom:6px}
+.cl-app .cl-tx-t td.cl-s-nm{max-width:0;width:34%;min-width:160px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink)}
+.cl-app .cl-tx-note{margin-top:12px;text-wrap:pretty;word-break:keep-all}
+/* 제외 안내는 늘 둘째 줄 — 좁은 폭에서 낱말 하나만 남지 않게 */
+.cl-app .cl-tx-note-x{display:block}
+/* compact — 패널 안쪽 600–859: 계좌는 종목 2줄째, 마지막 날짜 열은 접는다 */
+@container panel (600px <= width < 860px){
+  .cl-app table.cl-tx-t .cl-k-hide{display:none}
+  .cl-app table.cl-tx-t .cl-k-only{display:block}
+  .cl-app table.cl-tx-t tbody td{height:52px}
+}
+.cl-app table.cl-tx-t tr.cl-fold{cursor:default}
+@container panel (width < 600px){
+  .cl-app table.cl-tx-t tr.cl-fold{display:block;padding:8px 0;border-bottom:0}
+  .cl-app table.cl-tx-t tr.cl-fold td{display:block}
+}

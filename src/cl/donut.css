@@ -1,0 +1,23 @@
+/* 도넛·이중 링 + 범례(줄바꿈 없음, 이름만 말줄임). .cl-app 범위로 cl.css 보다 우선 */
+.cl-app .cl-donut{display:flex;flex-direction:column;align-items:center;gap:14px;min-width:0;width:100%}
+.cl-app .cl-donut-svg{display:block;flex:none;max-width:100%;height:auto;overflow:visible}
+.cl-app .cl-donut-seg{stroke:var(--surface);stroke-width:1}
+.cl-app .cl-donut-click{cursor:pointer;transition:opacity var(--dur) var(--ease)}
+@media (hover:hover){.cl-app .cl-donut-click:hover{opacity:.85}}
+.cl-app .cl-donut-seg[data-on="1"]{stroke:var(--ink);stroke-width:2}
+.cl-app .cl-donut-pct{font-family:var(--f-num);font-variant-numeric:tabular-nums;font-size:11px;font-weight:600;text-anchor:middle;dominant-baseline:central;pointer-events:none}
+.cl-app .cl-donut-c1{font-family:var(--f-num);font-variant-numeric:tabular-nums;font-weight:500;fill:var(--ink);text-anchor:middle;dominant-baseline:central;letter-spacing:-.02em}
+.cl-app .cl-donut-c2{font-family:var(--f-ui);fill:var(--muted);text-anchor:middle;dominant-baseline:central}
+.cl-app .cl-donut-leg{list-style:none;margin:0;padding:0;width:100%;display:grid;grid-template-columns:minmax(0,1fr);gap:2px}
+.cl-app .cl-donut-row{display:grid;grid-template-columns:10px minmax(0,1fr) auto 44px;align-items:center;gap:8px;width:100%;min-height:28px;padding:2px 6px;border:0;border-radius:6px;background:none;text-align:left;font-size:13px;color:var(--body);white-space:nowrap}
+.cl-app button.cl-donut-row,.cl-app a.cl-donut-row{cursor:pointer;text-decoration:none;color:var(--body)}
+@media (hover:hover){.cl-app button.cl-donut-row:hover,.cl-app a.cl-donut-row:hover{background:var(--sunk)}}
+.cl-app button.cl-donut-row[aria-pressed="true"]{background:var(--accent-wash)}
+.cl-app .cl-donut-row i{width:10px;height:10px;border-radius:3px}
+.cl-app .cl-donut-nm{overflow:hidden;text-overflow:ellipsis;min-width:0}
+.cl-app .cl-donut-row b{font-weight:500;color:var(--ink)}
+.cl-app .cl-donut-p{text-align:right;color:var(--muted)}
+.cl-app .cl-donut-leg li[data-depth="0"] .cl-donut-nm{font-weight:600;color:var(--ink)}
+.cl-app .cl-donut-leg li[data-depth="1"] .cl-donut-row{padding-left:20px}
+@media (pointer:coarse){.cl-app .cl-donut-row{min-height:44px}}
+.cl-app .cl-donut-pct-out{fill:var(--ink);font-weight:600}

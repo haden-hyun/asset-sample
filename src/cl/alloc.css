@@ -1,0 +1,118 @@
+/* 배분 목표 대비 — 목표 대비 카드 + 쏠림 점검 카드(1.75 : 1, 좁으면 아래로) · 리밸런싱 바로가기 */
+.cl-app .cl-alloc-pair{display:grid;grid-template-columns:minmax(0,1.75fr) minmax(0,1fr);gap:16px;align-items:start}
+@media (max-width:1180px){.cl-app .cl-alloc-pair{grid-template-columns:minmax(0,1fr)}}
+.cl-app .cl-alloc-pair > .cl-panel{min-width:0}
+.cl-app #concentration{scroll-margin-top:72px}
+
+.cl-app .cl-rebal-cta{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin-top:16px;padding:12px 16px;background:var(--sunk);border-radius:var(--r-control)}
+.cl-app .cl-rebal-sum{flex:1 1 220px;min-width:0;font-size:14px;color:var(--body)}
+.cl-app .cl-rebal-sum b{color:var(--ink);font-weight:600}
+.cl-app .cl-rebal-cta .cl-btn{margin-left:auto;flex:none}
+@media (max-width:640px){.cl-app .cl-rebal-cta .cl-btn{width:100%;min-height:44px}}
+
+/* 쏠림 점검 표 — 규칙 · 현재 · 기준 · 판정. 행을 누르면 이유 한 줄이 아래에 열린다 */
+.cl-app .cl-xr td{height:44px}
+.cl-app .cl-xr-row{cursor:pointer}
+.cl-app .cl-xr-row.cl-on td{border-bottom-color:transparent}
+.cl-app .cl-xr-nm button{display:inline-flex;align-items:center;gap:4px;min-height:44px;margin-left:-4px;padding:0 4px;border:0;background:none;font:inherit;color:var(--ink);font-weight:500;cursor:pointer;text-align:left;white-space:nowrap;border-radius:6px}
+.cl-app .cl-xr-nm button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.cl-app .cl-xr-nm .cl-chev{width:16px;height:16px;flex:none}
+.cl-app .cl-xr-v{color:var(--ink);font-weight:500}
+.cl-app .cl-xr-b{color:var(--muted)}
+.cl-app .cl-xr th,.cl-app .cl-xr td{padding-left:8px;padding-right:8px}
+.cl-app .cl-xr th:last-child,.cl-app .cl-xr td:last-child{padding-right:0}
+.cl-app .cl-xr tr.cl-xr-why td{height:auto;padding:0 0 12px 24px;white-space:normal;font-size:12px;line-height:1.5;color:var(--muted)}
+@media (hover:hover){.cl-app .cl-xr tbody tr.cl-xr-why:hover{background:none}}
+
+/* 범위 상태 꼬리표 — 잉크(DESIGN §1-2). 품질색(--q-*)을 빌리지 않는다 */
+.cl-app .cl-tg-tag{display:inline-block;margin-left:6px;padding:0 7px;border:1px solid var(--st-warn);border-radius:999px;background:var(--st-warn-wash);font-family:var(--f-ui);font-size:11px;font-weight:600;line-height:18px;color:var(--st-warn);white-space:nowrap;vertical-align:1px}
+
+/* 목표 관리 묶음 카드 — 고르면 ?scope= (선택 = 틸 테두리 + 엷은 틸 면) */
+.cl-app .cl-sc-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(128px,1fr));gap:8px;margin-bottom:10px}
+.cl-app .cl-sc-card{display:flex;flex-direction:column;align-items:flex-start;gap:2px;min-width:0;padding:9px 11px;border:1px solid var(--hair-strong);border-radius:10px;background:var(--surface);color:var(--body);font:inherit;text-align:left;cursor:pointer;transition:border-color var(--dur) var(--ease),background-color var(--dur) var(--ease)}
+.cl-app .cl-sc-card[aria-pressed="true"]{border-color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent);background:var(--accent-wash)}
+@media (hover:hover){.cl-app .cl-sc-card:hover{border-color:var(--accent)}}
+.cl-app .cl-sc-card:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.cl-app .cl-sc-top{display:flex;align-items:center;max-width:100%;min-width:0}
+.cl-app .cl-sc-nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14px;font-weight:620;color:var(--ink)}
+.cl-app .cl-sc-v{font-size:12.5px;color:var(--muted);white-space:nowrap}
+.cl-app .cl-sc-free{margin:0 0 14px;font-size:12px;color:var(--muted);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* 목표 대비 행 — 이름(고정 폭) | 트랙(--sunk 홈) · 허용 범위 띠(--ink-wash) · 목표 눈금(--ink 2px) · 현재 점 + 라벨 | 현재 / 목표
+   범위 안 = --muted 테두리 흰 점, 범위 밖 = --ink 다이아몬드 + 범위 끝까지 점선. 상태는 잉크만(DESIGN §1-2) */
+.cl-app .cl-tg{margin-top:4px}
+.cl-app .cl-tg-row,.cl-app .cl-tg-axis{display:grid;grid-template-columns:132px minmax(0,1fr) minmax(140px,auto);gap:16px;align-items:center;font-size:13px}
+.cl-app .cl-tg-row{min-height:44px}
+.cl-app .cl-tg-row + .cl-tg-row{border-top:1px solid var(--hair)}
+.cl-app .cl-tg-nm{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--body)}
+.cl-app .cl-tg-row.cl-out .cl-tg-nm{color:var(--ink);font-weight:620}
+.cl-app .cl-tg-trk{position:relative;height:44px;min-width:0;margin:0 6px}
+.cl-app .cl-tg-trk > *{position:absolute;top:50%;display:block}
+.cl-app .cl-tg-groove{left:0;right:0;height:8px;margin-top:-4px;border-radius:999px;background:var(--sunk);box-shadow:var(--trough, none)}
+.cl-app .cl-tg-band{height:18px;margin-top:-9px;border-radius:999px;background:var(--ink-wash);box-shadow:inset 0 0 0 1px var(--hair)}
+.cl-app .cl-tg-gap{height:0;border-top:1.5px dashed var(--st-warn);margin-top:-.75px}
+.cl-app .cl-tg-tick{width:2px;height:22px;margin:-11px 0 0 -1px;border-radius:1px;background:var(--ink)}
+.cl-app .cl-tg-dot{width:12px;height:12px;margin:-6px 0 0 -6px;box-sizing:border-box;border:2px solid var(--muted);border-radius:50%;background:var(--surface)}
+.cl-app .cl-tg-row.cl-out .cl-tg-dot{width:10px;height:10px;margin:-5px 0 0 -5px;border:0;border-radius:1.5px;background:var(--st-warn);transform:rotate(45deg)}
+.cl-app .cl-tg-row.cl-out .cl-tg-lbl{color:var(--st-warn)}
+.cl-app .cl-tg-lbl{transform:translate(10px,-50%);font-size:11px;font-weight:600;line-height:1;color:var(--ink);white-space:nowrap;pointer-events:none}
+.cl-app .cl-tg-lbl.cl-l{transform:translate(calc(-100% - 10px),-50%)}
+.cl-app .cl-tg-v{text-align:right;white-space:nowrap;color:var(--muted)}
+.cl-app .cl-tg-v b{color:var(--ink);font-weight:600}
+.cl-app .cl-tg-axis{padding-top:6px;border-top:1px solid var(--hair-strong);font-size:11px;color:var(--muted)}
+.cl-app .cl-tg-axis .cl-tg-scale{grid-column:2;display:flex;justify-content:space-between;margin:0 6px}
+.cl-app .cl-tg-scale span{flex:0 0 0;display:flex;justify-content:center;white-space:nowrap}
+.cl-app .cl-tg-scale span:first-child{justify-content:flex-start}
+.cl-app .cl-tg-scale span:last-child{justify-content:flex-end}
+.cl-app .cl-tg-axis .cl-n{grid-column:3;text-align:right}
+@media (max-width:640px){
+  .cl-app .cl-tg-row{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"nm v" "bar bar";gap:0 10px;padding-top:8px}
+  .cl-app .cl-tg-nm{grid-area:nm}.cl-app .cl-tg-v{grid-area:v}.cl-app .cl-tg-trk{grid-area:bar;height:32px}
+  .cl-app .cl-tg-axis{grid-template-columns:minmax(0,1fr) auto;gap:4px 10px}
+  .cl-app .cl-tg-axis .cl-tg-scale{grid-column:1 / -1}
+  .cl-app .cl-tg-axis .cl-n{display:none}
+}
+
+/* 목표 설정 — 이름(고정 폭·말줄임) | − 입력 + | 현재. 이름 칸을 다른 요소가 침범하지 않는다 */
+.cl-app .cl-st-rows{margin-top:4px}
+.cl-app .cl-st-row{display:grid;grid-template-columns:minmax(0,220px) auto 72px;justify-content:start;gap:10px 20px;align-items:center;padding:6px 0;border-top:1px solid var(--hair);font-size:14px}
+.cl-app .cl-st-row:first-child,.cl-app .cl-st-head + .cl-st-row{border-top:0}
+.cl-app .cl-st-head{padding:0 0 4px;font-size:12px;color:var(--muted)}
+.cl-app .cl-st-head .cl-n,.cl-app .cl-st-cur{text-align:right}
+.cl-app .cl-st-nm{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ink);font-weight:500}
+.cl-app .cl-st-cur{font-size:13px;color:var(--muted);white-space:nowrap}
+.cl-app .cl-step{display:inline-flex;align-items:stretch;height:36px;border:1px solid var(--hair-strong);border-radius:var(--r-control);background:var(--surface);overflow:hidden}
+.cl-app .cl-step button{flex:none;width:36px;border:0;background:var(--sunk);color:var(--ink);font-size:16px;line-height:1;cursor:pointer;touch-action:manipulation}
+.cl-app .cl-step button:disabled{color:var(--faint);cursor:default}
+@media (hover:hover){.cl-app .cl-step button:not(:disabled):hover{background:var(--accent-wash);color:var(--accent)}}
+.cl-app .cl-step button:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.cl-app .cl-step input{width:56px;min-width:0;border:0;border-left:1px solid var(--hair-strong);background:none;padding:0 2px 0 6px;text-align:right;font-family:var(--f-num);font-variant-numeric:tabular-nums;font-size:16px;color:var(--ink)}
+.cl-app .cl-step input:focus{outline:2px solid var(--accent);outline-offset:-2px}
+.cl-app .cl-step-u{display:flex;align-items:center;padding:0 8px 0 2px;border-right:1px solid var(--hair-strong);font-size:13px;color:var(--muted)}
+@media (pointer:coarse){.cl-app .cl-step{height:44px}.cl-app .cl-step button{width:44px}}
+@media (max-width:640px){.cl-app .cl-st-row{grid-template-columns:minmax(0,1fr) auto 46px;gap:8px}.cl-app .cl-step input{width:40px;padding-left:2px}.cl-app .cl-step-u{padding-right:6px}}
+
+.cl-app .cl-st-sum{margin-top:12px;padding-top:12px;border-top:1px solid var(--hair-strong)}
+.cl-app .cl-st-sumtop{display:flex;align-items:center;justify-content:space-between;gap:8px 12px;flex-wrap:wrap;min-height:28px;font-size:13px;color:var(--body)}
+.cl-app .cl-st-sumtop b{color:var(--ink);font-weight:620}
+.cl-app .cl-st-bar{position:relative;height:6px;margin-top:8px;border-radius:999px;background:var(--sunk);box-shadow:var(--trough);overflow:hidden}
+.cl-app .cl-st-bar i{position:absolute;left:0;top:0;bottom:0;border-radius:999px;background:var(--accent);transition:width var(--dur) var(--ease)}
+.cl-app .cl-st-bar.cl-over i{background:var(--st-warn)}
+
+/* 납입 — 누적 계단 선(연금저축 계좌색) · 균등 페이스(--faint 점선) · 한도(잉크 점선) · 오늘 점 */
+.cl-app .cl-ctb-fig{margin-left:auto;font-size:14px;color:var(--muted);white-space:nowrap}
+.cl-app .cl-ctb-fig b{color:var(--ink);font-weight:600}
+.cl-app .cl-ctb-line{fill:none;stroke:var(--a-pension);stroke-width:2.25;stroke-linejoin:round;filter:drop-shadow(0 1px 1.5px color-mix(in srgb,var(--ink) 22%,transparent))}
+.cl-app .cl-ctb-pace{stroke:var(--faint);stroke-width:1.5;stroke-dasharray:3 3}
+.cl-app .cl-ctb-cap{stroke:var(--ink);stroke-width:1;stroke-dasharray:6 3}
+.cl-app .cl-ctb-capl{font-size:11px;fill:var(--ink);font-family:var(--f-ui)}
+.cl-app .cl-ctb-mgrid{stroke:var(--hair);stroke-width:1;stroke-dasharray:2 4}
+.cl-app .cl-ctb-dot{fill:var(--surface);stroke:var(--a-pension);stroke-width:2}
+.cl-app .cl-ctb-endl{fill:var(--ink)}
+.cl-app .cl-ctb-leg{display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:6px;font-size:12px;color:var(--muted)}
+.cl-app .cl-ctb-leg span{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.cl-app .cl-ctb-leg i{display:inline-block;width:16px;height:0;border-top:2.25px solid var(--a-pension)}
+.cl-app .cl-ctb-leg i.cl-ctb-k-pace{border-top:1.5px dashed var(--faint)}
+.cl-app .cl-ctb-leg i.cl-ctb-k-cap{border-top:1px dashed var(--ink)}
+
+.cl-app #ledger{scroll-margin-top:72px}

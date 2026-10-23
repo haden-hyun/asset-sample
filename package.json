@@ -1,0 +1,27 @@
+{
+  "name": "asset-portfolio-dashboard-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:sample": "vite --mode sample",
+    "build": "vite build",
+    "build:sample": "vite build --mode sample --outDir dist-sample --emptyOutDir",
+    "preview": "vite preview",
+    "preview:sample": "vite preview --mode sample --outDir dist-sample"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.59.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.26.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  }
+}

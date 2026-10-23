@@ -1,0 +1,1705 @@
+{
+"/allocation/BROKERAGE": {
+"f": "35be5a181134056f.json"
+},
+"/allocation/BROKERAGE/history": {
+"f": "1285717b6e1a982f.json"
+},
+"/allocation/BROKERAGE/plan?allow_sell=false&amount_krw=0&mode=REBALANCE": {
+"f": "81400fc5875e5468.json"
+},
+"/allocation/BROKERAGE/plan?allow_sell=false&amount_krw=1000000&mode=CONTRIBUTE": {
+"f": "d0bf0778c5eb3711.json"
+},
+"/allocation/BROKERAGE/plan?allow_sell=false&amount_krw=1000000&mode=REBALANCE": {
+"f": "3061bd0595f5be31.json"
+},
+"/allocation/BROKERAGE/plan?allow_sell=false&amount_krw=2000000&mode=CONTRIBUTE": {
+"f": "b9d42cc03c03eb8e.json"
+},
+"/allocation/BROKERAGE/plan?allow_sell=false&amount_krw=3000000&mode=CONTRIBUTE": {
+"f": "e45b5cb06e0e93c5.json"
+},
+"/allocation/BROKERAGE/plan?allow_sell=false&amount_krw=500000&mode=CONTRIBUTE": {
+"f": "962bba5cb8f3e15d.json"
+},
+"/allocation/BROKERAGE/plan?allow_sell=false&amount_krw=5000000&mode=CONTRIBUTE": {
+"f": "cbed90a7d84e3bca.json"
+},
+"/allocation/BROKERAGE/plan?allow_sell=true&amount_krw=0&mode=REBALANCE": {
+"f": "1cdd7dc7fa82800c.json"
+},
+"/allocation/BROKERAGE/plan?allow_sell=true&amount_krw=1000000&mode=REBALANCE": {
+"f": "2a99d29984b78a48.json"
+},
+"/allocation/CRYPTO": {
+"f": "dff1f7657ef21ae5.json"
+},
+"/allocation/CRYPTO/history": {
+"f": "24844564912026de.json"
+},
+"/allocation/CRYPTO/plan?allow_sell=false&amount_krw=0&mode=REBALANCE": {
+"f": "836a338ce7163c46.json"
+},
+"/allocation/CRYPTO/plan?allow_sell=false&amount_krw=1000000&mode=CONTRIBUTE": {
+"f": "46f61770d485c5a8.json"
+},
+"/allocation/CRYPTO/plan?allow_sell=false&amount_krw=1000000&mode=REBALANCE": {
+"f": "f2799f14c64d4c01.json"
+},
+"/allocation/CRYPTO/plan?allow_sell=false&amount_krw=2000000&mode=CONTRIBUTE": {
+"f": "af07ce5f90237460.json"
+},
+"/allocation/CRYPTO/plan?allow_sell=false&amount_krw=3000000&mode=CONTRIBUTE": {
+"f": "da2e2d1598e4ed4a.json"
+},
+"/allocation/CRYPTO/plan?allow_sell=false&amount_krw=500000&mode=CONTRIBUTE": {
+"f": "319f2dc28bfcdf34.json"
+},
+"/allocation/CRYPTO/plan?allow_sell=false&amount_krw=5000000&mode=CONTRIBUTE": {
+"f": "c5544bf18848de07.json"
+},
+"/allocation/CRYPTO/plan?allow_sell=true&amount_krw=0&mode=REBALANCE": {
+"f": "5cff9e85f6cec02e.json"
+},
+"/allocation/CRYPTO/plan?allow_sell=true&amount_krw=1000000&mode=REBALANCE": {
+"f": "a73765bb88d67453.json"
+},
+"/allocation/ISA": {
+"f": "35111d73f5aea8a7.json"
+},
+"/allocation/ISA/history": {
+"f": "4e9ba3f87218935b.json"
+},
+"/allocation/ISA/plan?allow_sell=false&amount_krw=0&mode=REBALANCE": {
+"f": "dd71cc77961caf14.json"
+},
+"/allocation/ISA/plan?allow_sell=false&amount_krw=1000000&mode=CONTRIBUTE": {
+"f": "771e04aa6b62f196.json"
+},
+"/allocation/ISA/plan?allow_sell=false&amount_krw=1000000&mode=REBALANCE": {
+"f": "90d6bcf1577aabcb.json"
+},
+"/allocation/ISA/plan?allow_sell=false&amount_krw=2000000&mode=CONTRIBUTE": {
+"f": "79d47f716b21120e.json"
+},
+"/allocation/ISA/plan?allow_sell=false&amount_krw=3000000&mode=CONTRIBUTE": {
+"f": "30378982b5868229.json"
+},
+"/allocation/ISA/plan?allow_sell=false&amount_krw=500000&mode=CONTRIBUTE": {
+"f": "9d1e4ef45087b759.json"
+},
+"/allocation/ISA/plan?allow_sell=false&amount_krw=5000000&mode=CONTRIBUTE": {
+"f": "649b3a7f87cb3c4f.json"
+},
+"/allocation/ISA/plan?allow_sell=true&amount_krw=0&mode=REBALANCE": {
+"f": "eb9cfbf6fd0e14c5.json"
+},
+"/allocation/ISA/plan?allow_sell=true&amount_krw=1000000&mode=REBALANCE": {
+"f": "a64567a113b9cf00.json"
+},
+"/allocation/LIQUIDITY": {
+"f": "4ad9d7be41880578.json"
+},
+"/allocation/LIQUIDITY/history": {
+"f": "9957401b8aef777e.json"
+},
+"/allocation/PENSION_SAVINGS": {
+"f": "a1df1de0e5b18fe5.json"
+},
+"/allocation/PENSION_SAVINGS/history": {
+"f": "6babeb91a773bd92.json"
+},
+"/allocation/PENSION_SAVINGS/plan?allow_sell=false&amount_krw=0&mode=REBALANCE": {
+"f": "a2d510c7bad9f29d.json"
+},
+"/allocation/PENSION_SAVINGS/plan?allow_sell=false&amount_krw=1000000&mode=CONTRIBUTE": {
+"f": "75b92340ed7c7e6c.json"
+},
+"/allocation/PENSION_SAVINGS/plan?allow_sell=false&amount_krw=1000000&mode=REBALANCE": {
+"f": "2d8ae1df06a49114.json"
+},
+"/allocation/PENSION_SAVINGS/plan?allow_sell=false&amount_krw=2000000&mode=CONTRIBUTE": {
+"f": "53da840b274101eb.json"
+},
+"/allocation/PENSION_SAVINGS/plan?allow_sell=false&amount_krw=3000000&mode=CONTRIBUTE": {
+"f": "796917049886ff6f.json"
+},
+"/allocation/PENSION_SAVINGS/plan?allow_sell=false&amount_krw=500000&mode=CONTRIBUTE": {
+"f": "f913e26c05313e59.json"
+},
+"/allocation/PENSION_SAVINGS/plan?allow_sell=false&amount_krw=5000000&mode=CONTRIBUTE": {
+"f": "8297370ae6f44bad.json"
+},
+"/allocation/PENSION_SAVINGS/plan?allow_sell=true&amount_krw=0&mode=REBALANCE": {
+"f": "aa1ea40f98f10f2e.json"
+},
+"/allocation/PENSION_SAVINGS/plan?allow_sell=true&amount_krw=1000000&mode=REBALANCE": {
+"f": "ad85d9fb27f5edcd.json"
+},
+"/allocation/PURPOSE_SAVINGS": {
+"f": "cc529615df438b18.json"
+},
+"/allocation/PURPOSE_SAVINGS/history": {
+"f": "356c9d97e8a9e037.json"
+},
+"/allocation/RETIREMENT": {
+"f": "e933aff8c684060e.json"
+},
+"/allocation/RETIREMENT/history": {
+"f": "6acf5ce77460c51a.json"
+},
+"/allocation/RETIREMENT/plan?allow_sell=false&amount_krw=0&mode=REBALANCE": {
+"f": "2a5e3a6592aeec23.json"
+},
+"/allocation/RETIREMENT/plan?allow_sell=false&amount_krw=1000000&mode=CONTRIBUTE": {
+"f": "e222a9f2d7877ccc.json"
+},
+"/allocation/RETIREMENT/plan?allow_sell=false&amount_krw=1000000&mode=REBALANCE": {
+"f": "d3325156b52d0c13.json"
+},
+"/allocation/RETIREMENT/plan?allow_sell=false&amount_krw=2000000&mode=CONTRIBUTE": {
+"f": "095a2e76e8907cf3.json"
+},
+"/allocation/RETIREMENT/plan?allow_sell=false&amount_krw=3000000&mode=CONTRIBUTE": {
+"f": "cdec7bfe7695955b.json"
+},
+"/allocation/RETIREMENT/plan?allow_sell=false&amount_krw=500000&mode=CONTRIBUTE": {
+"f": "bf17ed534672dd43.json"
+},
+"/allocation/RETIREMENT/plan?allow_sell=false&amount_krw=5000000&mode=CONTRIBUTE": {
+"f": "7620c8d172adb08c.json"
+},
+"/allocation/RETIREMENT/plan?allow_sell=true&amount_krw=0&mode=REBALANCE": {
+"f": "9e38f5b027625195.json"
+},
+"/allocation/RETIREMENT/plan?allow_sell=true&amount_krw=1000000&mode=REBALANCE": {
+"f": "8865d1338f66a346.json"
+},
+"/allocation/scopes": {
+"f": "51223b6312ac4860.json"
+},
+"/auth/me": {
+"f": "09331468134ab0ca.json"
+},
+"/data-health": {
+"f": "a7e6531fcb32df78.json"
+},
+"/dividends/matrix?base=cost&period=ttm&scope_code=BROKERAGE&tax=post": {
+"f": "46a36e559b64f623.json"
+},
+"/dividends/matrix?base=cost&period=ttm&scope_code=BROKERAGE&tax=pre": {
+"f": "2df4a66f6c6666d3.json"
+},
+"/dividends/matrix?base=cost&period=ttm&scope_code=ISA&tax=post": {
+"f": "a29d7a7ff0660c8b.json"
+},
+"/dividends/matrix?base=cost&period=ttm&scope_code=ISA&tax=pre": {
+"f": "9ffeeb35c86b23c9.json"
+},
+"/dividends/matrix?base=cost&period=ttm&scope_code=PENSION_SAVINGS&tax=post": {
+"f": "075681ea318c02ba.json"
+},
+"/dividends/matrix?base=cost&period=ttm&scope_code=PENSION_SAVINGS&tax=pre": {
+"f": "861b40f473bae495.json"
+},
+"/dividends/matrix?base=cost&period=ttm&scope_code=RETIREMENT&tax=post": {
+"f": "0dc4793483d38ab6.json"
+},
+"/dividends/matrix?base=cost&period=ttm&scope_code=RETIREMENT&tax=pre": {
+"f": "abd222706b9f7cea.json"
+},
+"/dividends/matrix?base=cost&period=ttm&scope_code=all&tax=post": {
+"f": "e19f2b0cf70cf068.json"
+},
+"/dividends/matrix?base=cost&period=ttm&scope_code=all&tax=pre": {
+"f": "3888b7efa91eb430.json"
+},
+"/dividends/matrix?base=cost&period=ytd&scope_code=BROKERAGE&tax=post": {
+"f": "aebaf504909da51d.json"
+},
+"/dividends/matrix?base=cost&period=ytd&scope_code=BROKERAGE&tax=pre": {
+"f": "40226178c19eecc0.json"
+},
+"/dividends/matrix?base=cost&period=ytd&scope_code=ISA&tax=post": {
+"f": "07ba8014e99708cc.json"
+},
+"/dividends/matrix?base=cost&period=ytd&scope_code=ISA&tax=pre": {
+"f": "1db7edd11be46dae.json"
+},
+"/dividends/matrix?base=cost&period=ytd&scope_code=PENSION_SAVINGS&tax=post": {
+"f": "a604e487edeaf7f6.json"
+},
+"/dividends/matrix?base=cost&period=ytd&scope_code=PENSION_SAVINGS&tax=pre": {
+"f": "5ae05da5c41917bf.json"
+},
+"/dividends/matrix?base=cost&period=ytd&scope_code=RETIREMENT&tax=post": {
+"f": "14fdb0b378b72bb6.json"
+},
+"/dividends/matrix?base=cost&period=ytd&scope_code=RETIREMENT&tax=pre": {
+"f": "96b9bc1f78e4ad22.json"
+},
+"/dividends/matrix?base=cost&period=ytd&scope_code=all&tax=post": {
+"f": "94952e220427d7a6.json"
+},
+"/dividends/matrix?base=cost&period=ytd&scope_code=all&tax=pre": {
+"f": "fc7dd8c31f705548.json"
+},
+"/dividends?scope_code=BROKERAGE&tax=post": {
+"f": "f8cfa2aaa063a8e6.json"
+},
+"/dividends?scope_code=BROKERAGE&tax=pre": {
+"f": "dee8c842d4c8ddf4.json"
+},
+"/dividends?scope_code=ISA&tax=post": {
+"f": "0ea45e5352a0ff06.json"
+},
+"/dividends?scope_code=ISA&tax=pre": {
+"f": "d6c3bee556bc56b3.json"
+},
+"/dividends?scope_code=PENSION_SAVINGS&tax=post": {
+"f": "2df95c92f3e9a33d.json"
+},
+"/dividends?scope_code=PENSION_SAVINGS&tax=pre": {
+"f": "f01ec69023fd6b69.json"
+},
+"/dividends?scope_code=RETIREMENT&tax=post": {
+"f": "89dd9fe4a70b4ad5.json"
+},
+"/dividends?scope_code=RETIREMENT&tax=pre": {
+"f": "4284cb243be760e5.json"
+},
+"/dividends?scope_code=all&tax=post": {
+"f": "b4d7982d13ab24ae.json"
+},
+"/dividends?scope_code=all&tax=pre": {
+"f": "2d8a6c6df4eb59a3.json"
+},
+"/goals": {
+"f": "f1d17ba56b093a3b.json"
+},
+"/goals/monthly": {
+"f": "768455fdb14a058a.json"
+},
+"/lineage/graph": {
+"f": "4e936aabd2a112e4.json"
+},
+"/lineage/nodes/dag:account_ingest_asset_daily": {
+"f": "518cfc59a50e5673.json"
+},
+"/lineage/nodes/dag:account_ingest_dividend": {
+"f": "5a9ddc819021671a.json"
+},
+"/lineage/nodes/dag:account_rebuild_ledger_assets": {
+"f": "c00f5e2200c0494d.json"
+},
+"/lineage/nodes/dag:account_upsert_manual_position_ledger": {
+"f": "bba8569eae6801fe.json"
+},
+"/lineage/nodes/dag:market_ingest_product_price_daily": {
+"f": "f3230f1244d9962b.json"
+},
+"/lineage/nodes/dag:market_ingest_reference_daily": {
+"f": "452840af201c17e2.json"
+},
+"/lineage/nodes/dag:market_ingest_trading_holiday": {
+"f": "a59e869ac3fdd579.json"
+},
+"/lineage/nodes/fn:dashboard.flow_adjust": {
+"f": "1bc194c4d3436ce7.json"
+},
+"/lineage/nodes/mv:dashboard.mv_cost_basis_krw": {
+"f": "d7112d21e843d49e.json"
+},
+"/lineage/nodes/mv:dashboard.mv_position_daily": {
+"f": "9892ec8421b48b59.json"
+},
+"/lineage/nodes/screen:/": {
+"f": "eafe4f80c8a6fff1.json"
+},
+"/lineage/nodes/screen:/allocation": {
+"f": "dcc07f10f90e0093.json"
+},
+"/lineage/nodes/screen:/data-health": {
+"f": "12fcbfc5fb029d14.json"
+},
+"/lineage/nodes/screen:/dividend": {
+"f": "d7eb144eff554b85.json"
+},
+"/lineage/nodes/screen:/performance": {
+"f": "9d03511f0f18788f.json"
+},
+"/lineage/nodes/screen:/portfolio": {
+"f": "355ed136ea75cbae.json"
+},
+"/lineage/nodes/screen:/trades": {
+"f": "a5d81b939bee9b92.json"
+},
+"/lineage/nodes/source:broker": {
+"f": "9a1e6398bc9ae260.json"
+},
+"/lineage/nodes/source:exchange": {
+"f": "e867eb58a7be75d2.json"
+},
+"/lineage/nodes/source:fundguide": {
+"f": "f343faba8fe9826e.json"
+},
+"/lineage/nodes/source:kasi": {
+"f": "2c7c68889ed0cd26.json"
+},
+"/lineage/nodes/source:kofia": {
+"f": "380038ad134e7a84.json"
+},
+"/lineage/nodes/source:manual": {
+"f": "7771ecbfca635914.json"
+},
+"/lineage/nodes/table:account.asset_daily": {
+"f": "419583f962e3e5d9.json"
+},
+"/lineage/nodes/table:account.dividend_receipt": {
+"f": "23c8d7b5cb3256f4.json"
+},
+"/lineage/nodes/table:account.manual_position_ledger": {
+"f": "c389e31cf563ffa9.json"
+},
+"/lineage/nodes/table:market.dividend_event": {
+"f": "cc0fb0481e9ff554.json"
+},
+"/lineage/nodes/table:market.exchange_rate_daily": {
+"f": "678e0c1d87bdf719.json"
+},
+"/lineage/nodes/table:market.fund_price_daily": {
+"f": "a1724ff91eaab7ed.json"
+},
+"/lineage/nodes/table:market.index_daily": {
+"f": "78af8a1650f1ed62.json"
+},
+"/lineage/nodes/table:market.product": {
+"f": "6eafd08431ce4b3e.json"
+},
+"/lineage/nodes/table:market.product_price_daily": {
+"f": "7675a3215cc36a42.json"
+},
+"/lineage/nodes/table:market.trading_holiday": {
+"f": "ff28331d16bfb4e7.json"
+},
+"/lineage/nodes/view:dashboard.v_asset_daily_krw": {
+"f": "b70ed40a4318dd2b.json"
+},
+"/lineage/nodes/view:dashboard.v_cost_basis_krw": {
+"f": "b94d77d84a23141a.json"
+},
+"/lineage/nodes/view:dashboard.v_dividend_event": {
+"f": "3b1ff1bb8fbd7cc9.json"
+},
+"/lineage/nodes/view:dashboard.v_dividend_month_product": {
+"f": "19ce352ae4f2310b.json"
+},
+"/lineage/nodes/view:dashboard.v_dividend_receipt": {
+"f": "f1b176cbb4c2527a.json"
+},
+"/lineage/nodes/view:dashboard.v_dividend_ttm_product": {
+"f": "d324ea7a6657ca4d.json"
+},
+"/lineage/nodes/view:dashboard.v_position_daily": {
+"f": "eb1cc8c5d659da94.json"
+},
+"/lineage/nodes/view:dashboard.v_product_price_daily": {
+"f": "541cb50f9cefbb08.json"
+},
+"/manual-entry": {
+"f": "a9a09f4177215659.json"
+},
+"/market/overview?date_from=2025-09-01&date_to=2026-10-23": {
+"f": "00fb8050dd9a2f1a.json"
+},
+"/market/overview?date_from=2025-10-23&date_to=2026-10-23": {
+"f": "2a107f1acd72f816.json"
+},
+"/market/overview?date_from=2026-04-23&date_to=2026-10-23": {
+"f": "5667fb00f60c6a81.json"
+},
+"/market/overview?date_from=2026-07-23&date_to=2026-10-23": {
+"f": "7fcf04d4f57bd07c.json"
+},
+"/market/overview?date_from=2026-09-23&date_to=2026-10-23": {
+"f": "1744f41fd3fd933d.json"
+},
+"/market/overview?date_from=2026-10-16&date_to=2026-10-23": {
+"f": "56550cd8c8088429.json"
+},
+"/overview/accounts": {
+"f": "97ee9e5b57a2f962.json"
+},
+"/performance/contribution?preset=1m": {
+"f": "3beb5adb9f8b83ff.json"
+},
+"/performance/contribution?preset=1m&scope_code=BROKERAGE": {
+"f": "873ab20b9c5a4fde.json"
+},
+"/performance/contribution?preset=1m&scope_code=CRYPTO": {
+"f": "d306179ede963e90.json"
+},
+"/performance/contribution?preset=1m&scope_code=ISA": {
+"f": "da9ec1590a1a80e5.json"
+},
+"/performance/contribution?preset=1m&scope_code=PENSION_SAVINGS": {
+"f": "4bbc6e6f2e302497.json"
+},
+"/performance/contribution?preset=1m&scope_code=RETIREMENT": {
+"f": "abaf20f6ee73be02.json"
+},
+"/performance/contribution?preset=1y": {
+"f": "79048449c058a14f.json"
+},
+"/performance/contribution?preset=1y&scope_code=BROKERAGE": {
+"f": "72352e5ed6dfcfb1.json"
+},
+"/performance/contribution?preset=1y&scope_code=CRYPTO": {
+"f": "09cb659189be3162.json"
+},
+"/performance/contribution?preset=1y&scope_code=ISA": {
+"f": "7a2275716f83c408.json"
+},
+"/performance/contribution?preset=1y&scope_code=PENSION_SAVINGS": {
+"f": "80f9675a1299e1b2.json"
+},
+"/performance/contribution?preset=1y&scope_code=RETIREMENT": {
+"f": "f1bd50e22ba3d738.json"
+},
+"/performance/contribution?preset=3m": {
+"f": "4437141e55676cdd.json"
+},
+"/performance/contribution?preset=3m&scope_code=BROKERAGE": {
+"f": "b781574116ad0d63.json"
+},
+"/performance/contribution?preset=3m&scope_code=CRYPTO": {
+"f": "f69e4e3ae9826c9c.json"
+},
+"/performance/contribution?preset=3m&scope_code=ISA": {
+"f": "a1c84639037a4b51.json"
+},
+"/performance/contribution?preset=3m&scope_code=PENSION_SAVINGS": {
+"f": "48f3031b8bf74730.json"
+},
+"/performance/contribution?preset=3m&scope_code=RETIREMENT": {
+"f": "485c85c20629b8a3.json"
+},
+"/performance/contribution?preset=6m": {
+"f": "92103d91daae0b01.json"
+},
+"/performance/contribution?preset=6m&scope_code=BROKERAGE": {
+"f": "f94618d948a07d37.json"
+},
+"/performance/contribution?preset=6m&scope_code=CRYPTO": {
+"f": "264fe3974bd2ef86.json"
+},
+"/performance/contribution?preset=6m&scope_code=ISA": {
+"f": "a57edd1e5e4b7f6d.json"
+},
+"/performance/contribution?preset=6m&scope_code=PENSION_SAVINGS": {
+"f": "2a4910012dc955e0.json"
+},
+"/performance/contribution?preset=6m&scope_code=RETIREMENT": {
+"f": "f5e63632f7275b0e.json"
+},
+"/performance/contribution?preset=all": {
+"f": "8a78503c0632db02.json"
+},
+"/performance/contribution?preset=all&scope_code=BROKERAGE": {
+"f": "f6846aaec96ea8e1.json"
+},
+"/performance/contribution?preset=all&scope_code=CRYPTO": {
+"f": "19a8c1584f89f6d9.json"
+},
+"/performance/contribution?preset=all&scope_code=ISA": {
+"f": "fa6bc2223e6a2be3.json"
+},
+"/performance/contribution?preset=all&scope_code=PENSION_SAVINGS": {
+"f": "c78848cd71df834d.json"
+},
+"/performance/contribution?preset=all&scope_code=RETIREMENT": {
+"f": "2a682e1cc6df2cf0.json"
+},
+"/performance/contribution?preset=ytd": {
+"f": "5350f8ad81980b17.json"
+},
+"/performance/contribution?preset=ytd&scope_code=BROKERAGE": {
+"f": "52e017c6cfb84927.json"
+},
+"/performance/contribution?preset=ytd&scope_code=CRYPTO": {
+"f": "ac48c0b2c51dbf76.json"
+},
+"/performance/contribution?preset=ytd&scope_code=ISA": {
+"f": "c9e110307c4e2256.json"
+},
+"/performance/contribution?preset=ytd&scope_code=PENSION_SAVINGS": {
+"f": "fba59bcf16da9561.json"
+},
+"/performance/contribution?preset=ytd&scope_code=RETIREMENT": {
+"f": "de3f2d1ee0c6d398.json"
+},
+"/performance/scopes?preset=1m": {
+"f": "a327b42c984c0fc5.json"
+},
+"/performance/scopes?preset=1y": {
+"f": "8ce5d557cc899351.json"
+},
+"/performance/scopes?preset=3m": {
+"f": "f0c5f143aa29a64f.json"
+},
+"/performance/scopes?preset=6m": {
+"f": "385672dd650f5747.json"
+},
+"/performance/scopes?preset=all": {
+"f": "f1a5ae5571ab5544.json"
+},
+"/performance/scopes?preset=ytd": {
+"f": "45fad473840c11f7.json"
+},
+"/performance/series?metric=drawdown&preset=1m": {
+"f": "ca421effc14d4889.json"
+},
+"/performance/series?metric=drawdown&preset=1m&scope_code=BROKERAGE": {
+"f": "d56d011485bbc026.json"
+},
+"/performance/series?metric=drawdown&preset=1m&scope_code=CRYPTO": {
+"f": "dcfe94f10fd69a5b.json"
+},
+"/performance/series?metric=drawdown&preset=1m&scope_code=ISA": {
+"f": "71546733e90390f7.json"
+},
+"/performance/series?metric=drawdown&preset=1m&scope_code=PENSION_SAVINGS": {
+"f": "2cc269408be90862.json"
+},
+"/performance/series?metric=drawdown&preset=1m&scope_code=RETIREMENT": {
+"f": "a6cead60816150d4.json"
+},
+"/performance/series?metric=drawdown&preset=1y": {
+"f": "7215cda765b99c5c.json"
+},
+"/performance/series?metric=drawdown&preset=1y&scope_code=BROKERAGE": {
+"f": "784675e7be0d27b1.json"
+},
+"/performance/series?metric=drawdown&preset=1y&scope_code=CRYPTO": {
+"f": "b87065fc4bc75e5a.json"
+},
+"/performance/series?metric=drawdown&preset=1y&scope_code=ISA": {
+"f": "4ec07e7e0b23a7b3.json"
+},
+"/performance/series?metric=drawdown&preset=1y&scope_code=PENSION_SAVINGS": {
+"f": "09a3fd61593e916f.json"
+},
+"/performance/series?metric=drawdown&preset=1y&scope_code=RETIREMENT": {
+"f": "3b1eddeacb2fe917.json"
+},
+"/performance/series?metric=drawdown&preset=3m": {
+"f": "12d4fdde558a6535.json"
+},
+"/performance/series?metric=drawdown&preset=3m&scope_code=BROKERAGE": {
+"f": "7c2744075e1e0036.json"
+},
+"/performance/series?metric=drawdown&preset=3m&scope_code=CRYPTO": {
+"f": "35566595e03260af.json"
+},
+"/performance/series?metric=drawdown&preset=3m&scope_code=ISA": {
+"f": "e9a91c03fdb79a45.json"
+},
+"/performance/series?metric=drawdown&preset=3m&scope_code=PENSION_SAVINGS": {
+"f": "49293564a55fb87f.json"
+},
+"/performance/series?metric=drawdown&preset=3m&scope_code=RETIREMENT": {
+"f": "4781b5e655a5359c.json"
+},
+"/performance/series?metric=drawdown&preset=6m": {
+"f": "3e378aa1e5fae05b.json"
+},
+"/performance/series?metric=drawdown&preset=6m&scope_code=BROKERAGE": {
+"f": "8f66f2ecb913a596.json"
+},
+"/performance/series?metric=drawdown&preset=6m&scope_code=CRYPTO": {
+"f": "388f62b12730e445.json"
+},
+"/performance/series?metric=drawdown&preset=6m&scope_code=ISA": {
+"f": "3fa892303f398158.json"
+},
+"/performance/series?metric=drawdown&preset=6m&scope_code=PENSION_SAVINGS": {
+"f": "ae10983bfe4d6748.json"
+},
+"/performance/series?metric=drawdown&preset=6m&scope_code=RETIREMENT": {
+"f": "59e100d6a3541c16.json"
+},
+"/performance/series?metric=drawdown&preset=all": {
+"f": "c5b69725ae38e596.json"
+},
+"/performance/series?metric=drawdown&preset=all&scope_code=BROKERAGE": {
+"f": "3b55c379a836c53b.json"
+},
+"/performance/series?metric=drawdown&preset=all&scope_code=CRYPTO": {
+"f": "f101613f693c88c3.json"
+},
+"/performance/series?metric=drawdown&preset=all&scope_code=ISA": {
+"f": "67efefb7d5e40f13.json"
+},
+"/performance/series?metric=drawdown&preset=all&scope_code=PENSION_SAVINGS": {
+"f": "eb1e81ae7ea506af.json"
+},
+"/performance/series?metric=drawdown&preset=all&scope_code=RETIREMENT": {
+"f": "7e2616d5a1432b98.json"
+},
+"/performance/series?metric=drawdown&preset=ytd": {
+"f": "7cedf8dfdf563867.json"
+},
+"/performance/series?metric=drawdown&preset=ytd&scope_code=BROKERAGE": {
+"f": "6b2c89a4e2a2caf3.json"
+},
+"/performance/series?metric=drawdown&preset=ytd&scope_code=CRYPTO": {
+"f": "7da15164bc2262c0.json"
+},
+"/performance/series?metric=drawdown&preset=ytd&scope_code=ISA": {
+"f": "62691cac6220a3e5.json"
+},
+"/performance/series?metric=drawdown&preset=ytd&scope_code=PENSION_SAVINGS": {
+"f": "75dbd542451ccba2.json"
+},
+"/performance/series?metric=drawdown&preset=ytd&scope_code=RETIREMENT": {
+"f": "26e0a574ac72dca2.json"
+},
+"/performance/series?metric=flow&preset=1m": {
+"f": "a0f2b4f05bf6c5c3.json"
+},
+"/performance/series?metric=flow&preset=1m&scope_code=BROKERAGE": {
+"f": "9712acfd95725c71.json"
+},
+"/performance/series?metric=flow&preset=1m&scope_code=CRYPTO": {
+"f": "7a36779a1acbec67.json"
+},
+"/performance/series?metric=flow&preset=1m&scope_code=ISA": {
+"f": "77b37df18aee2f47.json"
+},
+"/performance/series?metric=flow&preset=1m&scope_code=PENSION_SAVINGS": {
+"f": "c0ef765231efc275.json"
+},
+"/performance/series?metric=flow&preset=1m&scope_code=RETIREMENT": {
+"f": "9a9ce7e850e6e079.json"
+},
+"/performance/series?metric=flow&preset=1y": {
+"f": "35b5b05737a43247.json"
+},
+"/performance/series?metric=flow&preset=1y&scope_code=BROKERAGE": {
+"f": "8ffc2891c411ab25.json"
+},
+"/performance/series?metric=flow&preset=1y&scope_code=CRYPTO": {
+"f": "8dbec98f72f442f8.json"
+},
+"/performance/series?metric=flow&preset=1y&scope_code=ISA": {
+"f": "a82a1c5abea22e4d.json"
+},
+"/performance/series?metric=flow&preset=1y&scope_code=PENSION_SAVINGS": {
+"f": "bff4c5d59afddac8.json"
+},
+"/performance/series?metric=flow&preset=1y&scope_code=RETIREMENT": {
+"f": "99eb705752b48ef9.json"
+},
+"/performance/series?metric=flow&preset=3m": {
+"f": "66f77a7b078fe8a0.json"
+},
+"/performance/series?metric=flow&preset=3m&scope_code=BROKERAGE": {
+"f": "07e2167308587f46.json"
+},
+"/performance/series?metric=flow&preset=3m&scope_code=CRYPTO": {
+"f": "13f0c4216f07b316.json"
+},
+"/performance/series?metric=flow&preset=3m&scope_code=ISA": {
+"f": "f4dceb2829b54615.json"
+},
+"/performance/series?metric=flow&preset=3m&scope_code=PENSION_SAVINGS": {
+"f": "206cab587dc07211.json"
+},
+"/performance/series?metric=flow&preset=3m&scope_code=RETIREMENT": {
+"f": "3962be8794006aa9.json"
+},
+"/performance/series?metric=flow&preset=6m": {
+"f": "0f47ec371f929df8.json"
+},
+"/performance/series?metric=flow&preset=6m&scope_code=BROKERAGE": {
+"f": "9acecd82b087ed5f.json"
+},
+"/performance/series?metric=flow&preset=6m&scope_code=CRYPTO": {
+"f": "59ce2d9bcb7841d3.json"
+},
+"/performance/series?metric=flow&preset=6m&scope_code=ISA": {
+"f": "8c39467c7c1bc986.json"
+},
+"/performance/series?metric=flow&preset=6m&scope_code=PENSION_SAVINGS": {
+"f": "5e06dc9940f31765.json"
+},
+"/performance/series?metric=flow&preset=6m&scope_code=RETIREMENT": {
+"f": "710eccee4f3fdbc5.json"
+},
+"/performance/series?metric=flow&preset=all": {
+"f": "4b67ae5e859169e7.json"
+},
+"/performance/series?metric=flow&preset=all&scope_code=BROKERAGE": {
+"f": "b1d5d54b0ade34ff.json"
+},
+"/performance/series?metric=flow&preset=all&scope_code=CRYPTO": {
+"f": "0a7d9fa35ac63466.json"
+},
+"/performance/series?metric=flow&preset=all&scope_code=ISA": {
+"f": "7558e4aba132404b.json"
+},
+"/performance/series?metric=flow&preset=all&scope_code=PENSION_SAVINGS": {
+"f": "fe5902d2fd35eabb.json"
+},
+"/performance/series?metric=flow&preset=all&scope_code=RETIREMENT": {
+"f": "2880e588976b0bd2.json"
+},
+"/performance/series?metric=flow&preset=ytd": {
+"f": "3a326bbb41aa9d03.json"
+},
+"/performance/series?metric=flow&preset=ytd&scope_code=BROKERAGE": {
+"f": "da3e454ce06a4cd1.json"
+},
+"/performance/series?metric=flow&preset=ytd&scope_code=CRYPTO": {
+"f": "996944f4a3ad83af.json"
+},
+"/performance/series?metric=flow&preset=ytd&scope_code=ISA": {
+"f": "3ed93f099f0a5c7e.json"
+},
+"/performance/series?metric=flow&preset=ytd&scope_code=PENSION_SAVINGS": {
+"f": "6fc78444e8040492.json"
+},
+"/performance/series?metric=flow&preset=ytd&scope_code=RETIREMENT": {
+"f": "1e54abf05186fca8.json"
+},
+"/performance/series?metric=returns&preset=1m": {
+"f": "31812f60061d8d5d.json"
+},
+"/performance/series?metric=returns&preset=1m&scope_code=BROKERAGE": {
+"f": "bd0c6e0c7dc5b06c.json"
+},
+"/performance/series?metric=returns&preset=1m&scope_code=CRYPTO": {
+"f": "de19097ce161c99d.json"
+},
+"/performance/series?metric=returns&preset=1m&scope_code=ISA": {
+"f": "77360824665638a0.json"
+},
+"/performance/series?metric=returns&preset=1m&scope_code=PENSION_SAVINGS": {
+"f": "3eec8d2fb3ce610c.json"
+},
+"/performance/series?metric=returns&preset=1m&scope_code=RETIREMENT": {
+"f": "a7085cf8689f961b.json"
+},
+"/performance/series?metric=returns&preset=1y": {
+"f": "93da039415825028.json"
+},
+"/performance/series?metric=returns&preset=1y&scope_code=BROKERAGE": {
+"f": "e038dacf5bf5b020.json"
+},
+"/performance/series?metric=returns&preset=1y&scope_code=CRYPTO": {
+"f": "e79ae223f800dc33.json"
+},
+"/performance/series?metric=returns&preset=1y&scope_code=ISA": {
+"f": "87cb505129305e11.json"
+},
+"/performance/series?metric=returns&preset=1y&scope_code=PENSION_SAVINGS": {
+"f": "48c4b657d976a490.json"
+},
+"/performance/series?metric=returns&preset=1y&scope_code=RETIREMENT": {
+"f": "c695e82b38d8dfc9.json"
+},
+"/performance/series?metric=returns&preset=3m": {
+"f": "17a757a8a549dbf7.json"
+},
+"/performance/series?metric=returns&preset=3m&scope_code=BROKERAGE": {
+"f": "0c6e39589fa64671.json"
+},
+"/performance/series?metric=returns&preset=3m&scope_code=CRYPTO": {
+"f": "e2c4f9503f47ea92.json"
+},
+"/performance/series?metric=returns&preset=3m&scope_code=ISA": {
+"f": "2072f05cb1ae9298.json"
+},
+"/performance/series?metric=returns&preset=3m&scope_code=PENSION_SAVINGS": {
+"f": "4356564c3ea15129.json"
+},
+"/performance/series?metric=returns&preset=3m&scope_code=RETIREMENT": {
+"f": "d581736436ee0aa7.json"
+},
+"/performance/series?metric=returns&preset=6m": {
+"f": "6f3adbb0b439d9fb.json"
+},
+"/performance/series?metric=returns&preset=6m&scope_code=BROKERAGE": {
+"f": "b14cefd8ec8d49a6.json"
+},
+"/performance/series?metric=returns&preset=6m&scope_code=CRYPTO": {
+"f": "d13601f3727875e1.json"
+},
+"/performance/series?metric=returns&preset=6m&scope_code=ISA": {
+"f": "a0e1088b688be5cd.json"
+},
+"/performance/series?metric=returns&preset=6m&scope_code=PENSION_SAVINGS": {
+"f": "5b5bb98edc6e9acc.json"
+},
+"/performance/series?metric=returns&preset=6m&scope_code=RETIREMENT": {
+"f": "a5bbd9851270608a.json"
+},
+"/performance/series?metric=returns&preset=all": {
+"f": "eaf1ec94839e570a.json"
+},
+"/performance/series?metric=returns&preset=all&scope_code=BROKERAGE": {
+"f": "6930a86eff2399ec.json"
+},
+"/performance/series?metric=returns&preset=all&scope_code=CRYPTO": {
+"f": "91cadd6a2333d2b2.json"
+},
+"/performance/series?metric=returns&preset=all&scope_code=ISA": {
+"f": "df69b01b0051b914.json"
+},
+"/performance/series?metric=returns&preset=all&scope_code=PENSION_SAVINGS": {
+"f": "844c450802d7221f.json"
+},
+"/performance/series?metric=returns&preset=all&scope_code=RETIREMENT": {
+"f": "b4441e7a3f5e4ab5.json"
+},
+"/performance/series?metric=returns&preset=ytd": {
+"f": "24e130e1f0aea0e6.json"
+},
+"/performance/series?metric=returns&preset=ytd&scope_code=BROKERAGE": {
+"f": "56e87b2af55b9084.json"
+},
+"/performance/series?metric=returns&preset=ytd&scope_code=CRYPTO": {
+"f": "799322e778bd35b3.json"
+},
+"/performance/series?metric=returns&preset=ytd&scope_code=ISA": {
+"f": "33a3c933df4c8b30.json"
+},
+"/performance/series?metric=returns&preset=ytd&scope_code=PENSION_SAVINGS": {
+"f": "f0a7b4067168e2d4.json"
+},
+"/performance/series?metric=returns&preset=ytd&scope_code=RETIREMENT": {
+"f": "0f02f15f40e298e1.json"
+},
+"/performance/series?metric=value&preset=all": {
+"f": "685d3ea732279b44.json"
+},
+"/performance/summary?date_from=2025-09-01&date_to=2026-10-23": {
+"f": "66ccbca4b2225c93.json"
+},
+"/performance/summary?date_from=2025-10-23&date_to=2026-10-23": {
+"f": "26371cc2d270ea87.json"
+},
+"/performance/summary?date_from=2026-04-23&date_to=2026-10-23": {
+"f": "1a565188abef6c5a.json"
+},
+"/performance/summary?date_from=2026-07-23&date_to=2026-10-23": {
+"f": "b083e0ae7eba99bc.json"
+},
+"/performance/summary?date_from=2026-09-23&date_to=2026-10-23": {
+"f": "2de7cfa51ec4e1c6.json"
+},
+"/performance/summary?date_from=2026-10-16&date_to=2026-10-23": {
+"f": "be452e61cfd04294.json"
+},
+"/performance/summary?preset=1m": {
+"f": "78ebbde85e3d8850.json"
+},
+"/performance/summary?preset=1m&scope_code=BROKERAGE": {
+"f": "b8c67916cd188c3d.json"
+},
+"/performance/summary?preset=1m&scope_code=CRYPTO": {
+"f": "df0ea18f29d45da3.json"
+},
+"/performance/summary?preset=1m&scope_code=ISA": {
+"f": "4a2fc87e36dc1a8b.json"
+},
+"/performance/summary?preset=1m&scope_code=PENSION_SAVINGS": {
+"f": "8906290db92fac03.json"
+},
+"/performance/summary?preset=1m&scope_code=RETIREMENT": {
+"f": "cbed5eb94767513e.json"
+},
+"/performance/summary?preset=1y": {
+"f": "92b3efe64c12867e.json"
+},
+"/performance/summary?preset=1y&scope_code=BROKERAGE": {
+"f": "4851da4229f3b98a.json"
+},
+"/performance/summary?preset=1y&scope_code=CRYPTO": {
+"f": "4111edbe08a92f10.json"
+},
+"/performance/summary?preset=1y&scope_code=ISA": {
+"f": "3491af9012e1840d.json"
+},
+"/performance/summary?preset=1y&scope_code=PENSION_SAVINGS": {
+"f": "f54ff729bbcdbd75.json"
+},
+"/performance/summary?preset=1y&scope_code=RETIREMENT": {
+"f": "d0fb3f106223d258.json"
+},
+"/performance/summary?preset=3m": {
+"f": "5de087d0025ad339.json"
+},
+"/performance/summary?preset=3m&scope_code=BROKERAGE": {
+"f": "37a8c9d5bc554793.json"
+},
+"/performance/summary?preset=3m&scope_code=CRYPTO": {
+"f": "2ad3e18e55446db1.json"
+},
+"/performance/summary?preset=3m&scope_code=ISA": {
+"f": "6a878382a9334cab.json"
+},
+"/performance/summary?preset=3m&scope_code=PENSION_SAVINGS": {
+"f": "0d48cd2e0418b021.json"
+},
+"/performance/summary?preset=3m&scope_code=RETIREMENT": {
+"f": "8fd4f69f62f871c4.json"
+},
+"/performance/summary?preset=6m": {
+"f": "81a05e610f77646a.json"
+},
+"/performance/summary?preset=6m&scope_code=BROKERAGE": {
+"f": "b52d271e24a3bb34.json"
+},
+"/performance/summary?preset=6m&scope_code=CRYPTO": {
+"f": "7ec4126a79a41433.json"
+},
+"/performance/summary?preset=6m&scope_code=ISA": {
+"f": "42970698629aaaa7.json"
+},
+"/performance/summary?preset=6m&scope_code=PENSION_SAVINGS": {
+"f": "2aba867bc5dc120b.json"
+},
+"/performance/summary?preset=6m&scope_code=RETIREMENT": {
+"f": "4543aaa6df4a194b.json"
+},
+"/performance/summary?preset=all": {
+"f": "e3d0644bfa68815e.json"
+},
+"/performance/summary?preset=all&scope_code=BROKERAGE": {
+"f": "2b2f079c11e95916.json"
+},
+"/performance/summary?preset=all&scope_code=CRYPTO": {
+"f": "c8eea3c5b30256d2.json"
+},
+"/performance/summary?preset=all&scope_code=ISA": {
+"f": "dc8d10ffd2e68c1a.json"
+},
+"/performance/summary?preset=all&scope_code=PENSION_SAVINGS": {
+"f": "d43dd6ee716e4918.json"
+},
+"/performance/summary?preset=all&scope_code=RETIREMENT": {
+"f": "459a25b71b43d6a9.json"
+},
+"/performance/summary?preset=ytd": {
+"f": "4f7b9019661406e5.json"
+},
+"/performance/summary?preset=ytd&scope_code=BROKERAGE": {
+"f": "2050f4a611ece3e9.json"
+},
+"/performance/summary?preset=ytd&scope_code=CRYPTO": {
+"f": "248e42ee4d735ec4.json"
+},
+"/performance/summary?preset=ytd&scope_code=ISA": {
+"f": "3586d0d0ec60335b.json"
+},
+"/performance/summary?preset=ytd&scope_code=PENSION_SAVINGS": {
+"f": "eebed9218c6453a3.json"
+},
+"/performance/summary?preset=ytd&scope_code=RETIREMENT": {
+"f": "709df7e3e4ecd750.json"
+},
+"/positions/000660/price?period=1m": {
+"f": "dbce509b91f60285.json"
+},
+"/positions/000660/price?period=1y": {
+"f": "eb69168f13e38c63.json"
+},
+"/positions/000660/price?period=3m": {
+"f": "8f95a6a1eeb3c0dc.json"
+},
+"/positions/000660/price?period=6m": {
+"f": "b39a230ee5a61c50.json"
+},
+"/positions/000660/price?period=hold": {
+"f": "14d6221f3a49a936.json"
+},
+"/positions/005380/price?period=1m": {
+"f": "03cdef9e0563a1e4.json",
+"s": 404
+},
+"/positions/005380/price?period=1y": {
+"f": "a9af08162ddb1118.json",
+"s": 404
+},
+"/positions/005380/price?period=3m": {
+"f": "561d9e67842488b9.json",
+"s": 404
+},
+"/positions/005380/price?period=6m": {
+"f": "96e35a92522b3351.json",
+"s": 404
+},
+"/positions/005380/price?period=hold": {
+"f": "772c4e51b8623754.json",
+"s": 404
+},
+"/positions/005930/price?period=1m": {
+"f": "4bcc787767aa3524.json"
+},
+"/positions/005930/price?period=1y": {
+"f": "50cec1c6e2d487da.json"
+},
+"/positions/005930/price?period=3m": {
+"f": "7f8da4d25f1b26e5.json"
+},
+"/positions/005930/price?period=6m": {
+"f": "eb1a5a94ff9fb500.json"
+},
+"/positions/005930/price?period=hold": {
+"f": "78ed9fb66a6a1b68.json"
+},
+"/positions/035420/price?period=1m": {
+"f": "a558bc93a2d787f7.json"
+},
+"/positions/035420/price?period=1y": {
+"f": "d05b1ee34b7da4e8.json"
+},
+"/positions/035420/price?period=3m": {
+"f": "35139ddaf880f83d.json"
+},
+"/positions/035420/price?period=6m": {
+"f": "b72dfeef3d46a825.json"
+},
+"/positions/035420/price?period=hold": {
+"f": "3cc0ef4155d7bfe4.json"
+},
+"/positions/035720/price?period=1m": {
+"f": "b2d4dd283c83c30d.json"
+},
+"/positions/035720/price?period=1y": {
+"f": "229408d82afab9d6.json"
+},
+"/positions/035720/price?period=3m": {
+"f": "4f414f196e0d5076.json"
+},
+"/positions/035720/price?period=6m": {
+"f": "ab41fa9fc5a3b0e9.json"
+},
+"/positions/035720/price?period=hold": {
+"f": "8a23c78178910494.json"
+},
+"/positions/069500/price?period=1m": {
+"f": "23eea58ccf8fec6d.json"
+},
+"/positions/069500/price?period=1y": {
+"f": "830150f97329cfb1.json"
+},
+"/positions/069500/price?period=3m": {
+"f": "009f9bf7b237f2f1.json"
+},
+"/positions/069500/price?period=6m": {
+"f": "884db63baed3ffb9.json"
+},
+"/positions/069500/price?period=hold": {
+"f": "24b8589b25f8ed83.json"
+},
+"/positions/132030/price?period=1m": {
+"f": "757fbf7a6851dfcc.json"
+},
+"/positions/132030/price?period=1y": {
+"f": "f371c1d4e0faaa51.json"
+},
+"/positions/132030/price?period=3m": {
+"f": "da0791777329a2e2.json"
+},
+"/positions/132030/price?period=6m": {
+"f": "79857682258ced26.json"
+},
+"/positions/132030/price?period=hold": {
+"f": "34d7f7d7e178bf1c.json"
+},
+"/positions/133690/price?period=1m": {
+"f": "559eb05b8a01dafe.json"
+},
+"/positions/133690/price?period=1y": {
+"f": "e66babd38e451924.json"
+},
+"/positions/133690/price?period=3m": {
+"f": "1c74d0b994b202de.json"
+},
+"/positions/133690/price?period=6m": {
+"f": "4cb7c5b8b4d9c640.json"
+},
+"/positions/133690/price?period=hold": {
+"f": "6def7c4ab2ddded0.json"
+},
+"/positions/148070/price?period=1m": {
+"f": "6c3f7725cb247e77.json"
+},
+"/positions/148070/price?period=1y": {
+"f": "d2cfc1af75f93226.json"
+},
+"/positions/148070/price?period=3m": {
+"f": "d050cb08a964ccfc.json"
+},
+"/positions/148070/price?period=6m": {
+"f": "648ca3f88d418c58.json"
+},
+"/positions/148070/price?period=hold": {
+"f": "c8d0568f90766fb1.json"
+},
+"/positions/261240/price?period=1m": {
+"f": "4dd7ee398db76ea9.json"
+},
+"/positions/261240/price?period=1y": {
+"f": "9c1302c7ee133fe9.json"
+},
+"/positions/261240/price?period=3m": {
+"f": "77b8b0d258311870.json"
+},
+"/positions/261240/price?period=6m": {
+"f": "d0ddf0e89cb6c518.json"
+},
+"/positions/261240/price?period=hold": {
+"f": "9c645dea367c2b4f.json"
+},
+"/positions/279530/price?period=1m": {
+"f": "dfce5b3632e30c90.json"
+},
+"/positions/279530/price?period=1y": {
+"f": "a13b0280508c697f.json"
+},
+"/positions/279530/price?period=3m": {
+"f": "6dfa877e8c874767.json"
+},
+"/positions/279530/price?period=6m": {
+"f": "b47b8cb38f04903d.json"
+},
+"/positions/279530/price?period=hold": {
+"f": "72edc732c8266f2c.json"
+},
+"/positions/305080/price?period=1m": {
+"f": "00315c1ace494cca.json"
+},
+"/positions/305080/price?period=1y": {
+"f": "db8d8c41c7e2e74c.json"
+},
+"/positions/305080/price?period=3m": {
+"f": "7fde3ea23ff210a4.json"
+},
+"/positions/305080/price?period=6m": {
+"f": "fe2748c75f4ccc6a.json"
+},
+"/positions/305080/price?period=hold": {
+"f": "0dd9b075e2bc2011.json"
+},
+"/positions/329200/price?period=1m": {
+"f": "0aa0e7f83172c851.json"
+},
+"/positions/329200/price?period=1y": {
+"f": "1fd23338226c2b99.json"
+},
+"/positions/329200/price?period=3m": {
+"f": "d26f4a66a383e94d.json"
+},
+"/positions/329200/price?period=6m": {
+"f": "4c3d0b4ebae03336.json"
+},
+"/positions/329200/price?period=hold": {
+"f": "93cd593689895f16.json"
+},
+"/positions/360750/price?period=1m": {
+"f": "7a92e72caac9a071.json"
+},
+"/positions/360750/price?period=1y": {
+"f": "7b9d32ba714f97e3.json"
+},
+"/positions/360750/price?period=3m": {
+"f": "7eb54afc7a94a550.json"
+},
+"/positions/360750/price?period=6m": {
+"f": "adfd7943b678df30.json"
+},
+"/positions/360750/price?period=hold": {
+"f": "a30b862167680b06.json"
+},
+"/positions/379800/price?period=1m": {
+"f": "32aec0c40b6a0502.json"
+},
+"/positions/379800/price?period=1y": {
+"f": "f3e178e4d2f83c29.json"
+},
+"/positions/379800/price?period=3m": {
+"f": "a2243c562646d9c5.json"
+},
+"/positions/379800/price?period=6m": {
+"f": "9b47dc96b361b6e5.json"
+},
+"/positions/379800/price?period=hold": {
+"f": "03a0bcac7a299103.json"
+},
+"/positions/379810/price?period=1m": {
+"f": "e9d8d89234e77e11.json"
+},
+"/positions/379810/price?period=1y": {
+"f": "46fc1139669e23e5.json"
+},
+"/positions/379810/price?period=3m": {
+"f": "2e991addbba5a371.json"
+},
+"/positions/379810/price?period=6m": {
+"f": "11479ed62d4ea80b.json"
+},
+"/positions/379810/price?period=hold": {
+"f": "33b067bae70d64ee.json"
+},
+"/positions/458730/price?period=1m": {
+"f": "3609d23eebd3b589.json"
+},
+"/positions/458730/price?period=1y": {
+"f": "ad39c39b162cc9d3.json"
+},
+"/positions/458730/price?period=3m": {
+"f": "7ea59cf875ca751a.json"
+},
+"/positions/458730/price?period=6m": {
+"f": "669ba398a687d928.json"
+},
+"/positions/458730/price?period=hold": {
+"f": "e6a7e7b7a1b268e0.json"
+},
+"/positions/AAPL/price?period=1m": {
+"f": "b54ed411c84fb349.json"
+},
+"/positions/AAPL/price?period=1y": {
+"f": "ef451ca36da965d1.json"
+},
+"/positions/AAPL/price?period=3m": {
+"f": "654a3698fe727694.json"
+},
+"/positions/AAPL/price?period=6m": {
+"f": "1c226ad91b77c8fc.json"
+},
+"/positions/AAPL/price?period=hold": {
+"f": "13147962cd0a1ae5.json"
+},
+"/positions/BTC/price?period=1m": {
+"f": "089e223f72798b65.json"
+},
+"/positions/BTC/price?period=1y": {
+"f": "33f6b5b3b065589f.json"
+},
+"/positions/BTC/price?period=3m": {
+"f": "8ee2a77f9eacf620.json"
+},
+"/positions/BTC/price?period=6m": {
+"f": "78c32fe74148bff4.json"
+},
+"/positions/BTC/price?period=hold": {
+"f": "444bf1f072c98faf.json"
+},
+"/positions/CMA/price?period=1m": {
+"f": "1a71906511be1451.json"
+},
+"/positions/CMA/price?period=1y": {
+"f": "153b2e1d498e0b9c.json"
+},
+"/positions/CMA/price?period=3m": {
+"f": "4b923160927d3fee.json"
+},
+"/positions/CMA/price?period=6m": {
+"f": "7761a4a1e3b77b7a.json"
+},
+"/positions/CMA/price?period=hold": {
+"f": "f07b4160795c3c92.json"
+},
+"/positions/DEPOSIT/price?period=1m": {
+"f": "6e14724b026aa789.json"
+},
+"/positions/DEPOSIT/price?period=1y": {
+"f": "cd4804838f6b7f18.json"
+},
+"/positions/DEPOSIT/price?period=3m": {
+"f": "d1e3e3f08ee37ca7.json"
+},
+"/positions/DEPOSIT/price?period=6m": {
+"f": "dc9250a59228f586.json"
+},
+"/positions/DEPOSIT/price?period=hold": {
+"f": "d5f4f1387dd6893b.json"
+},
+"/positions/DEPOSIT_USD/price?period=1m": {
+"f": "9e4f5e247ca15d7a.json"
+},
+"/positions/DEPOSIT_USD/price?period=1y": {
+"f": "315b371003316056.json"
+},
+"/positions/DEPOSIT_USD/price?period=3m": {
+"f": "b75c0b1ee4949502.json"
+},
+"/positions/DEPOSIT_USD/price?period=6m": {
+"f": "be782cbade3ec509.json"
+},
+"/positions/DEPOSIT_USD/price?period=hold": {
+"f": "f34aa91b6623f93e.json"
+},
+"/positions/ETH/price?period=1m": {
+"f": "120f19295bbaf924.json"
+},
+"/positions/ETH/price?period=1y": {
+"f": "bbe01861d8b95b5e.json"
+},
+"/positions/ETH/price?period=3m": {
+"f": "30def6c263ec7729.json"
+},
+"/positions/ETH/price?period=6m": {
+"f": "28ab418cefb23822.json"
+},
+"/positions/ETH/price?period=hold": {
+"f": "abddd34d0f621e05.json"
+},
+"/positions/GOLD/price?period=1m": {
+"f": "bc89b4d25940fa2c.json"
+},
+"/positions/GOLD/price?period=1y": {
+"f": "b2b5ed372cd177b0.json"
+},
+"/positions/GOLD/price?period=3m": {
+"f": "810d330132ce5a22.json"
+},
+"/positions/GOLD/price?period=6m": {
+"f": "bee86bf2a0182509.json"
+},
+"/positions/GOLD/price?period=hold": {
+"f": "669a59daa4c83edc.json"
+},
+"/positions/HOUSING_SUBSCRIPTION/price?period=1m": {
+"f": "ddfbce58083d9e86.json"
+},
+"/positions/HOUSING_SUBSCRIPTION/price?period=1y": {
+"f": "edf76fe5c9f84b25.json"
+},
+"/positions/HOUSING_SUBSCRIPTION/price?period=3m": {
+"f": "42c992f2dba32cdb.json"
+},
+"/positions/HOUSING_SUBSCRIPTION/price?period=6m": {
+"f": "e573a399ac39985a.json"
+},
+"/positions/HOUSING_SUBSCRIPTION/price?period=hold": {
+"f": "d1c49220962d6d49.json"
+},
+"/positions/INSTALLMENT_SAVINGS/price?period=1m": {
+"f": "59a09e1ae0e163af.json"
+},
+"/positions/INSTALLMENT_SAVINGS/price?period=1y": {
+"f": "afda5d73b2a3daeb.json"
+},
+"/positions/INSTALLMENT_SAVINGS/price?period=3m": {
+"f": "bf2fd4c826202916.json"
+},
+"/positions/INSTALLMENT_SAVINGS/price?period=6m": {
+"f": "1d08df22cccbf6ed.json"
+},
+"/positions/INSTALLMENT_SAVINGS/price?period=hold": {
+"f": "19703376fa806485.json"
+},
+"/positions/MSFT/price?period=1m": {
+"f": "cbb8c939cd29ae02.json"
+},
+"/positions/MSFT/price?period=1y": {
+"f": "fa50d972aeb254c7.json"
+},
+"/positions/MSFT/price?period=3m": {
+"f": "a1a7f7430ba2e56d.json"
+},
+"/positions/MSFT/price?period=6m": {
+"f": "6e9ee6bd26f62c14.json"
+},
+"/positions/MSFT/price?period=hold": {
+"f": "6b721a235710240f.json"
+},
+"/positions/NVDA/price?period=1m": {
+"f": "1aac2fa26918424a.json"
+},
+"/positions/NVDA/price?period=1y": {
+"f": "0545c01fda99d951.json"
+},
+"/positions/NVDA/price?period=3m": {
+"f": "252a36b3af386324.json"
+},
+"/positions/NVDA/price?period=6m": {
+"f": "8380e4f02bef17af.json"
+},
+"/positions/NVDA/price?period=hold": {
+"f": "e8d444397df4dd40.json"
+},
+"/positions/SMPL00000001/price?period=1m": {
+"f": "fafe0eb4cf87a61f.json"
+},
+"/positions/SMPL00000001/price?period=1y": {
+"f": "07fe9116a8838e49.json"
+},
+"/positions/SMPL00000001/price?period=3m": {
+"f": "0d55e874a23caac6.json"
+},
+"/positions/SMPL00000001/price?period=6m": {
+"f": "bfc32c226c53c4a3.json"
+},
+"/positions/SMPL00000001/price?period=hold": {
+"f": "9d9f673d4d2f5c98.json"
+},
+"/positions/SMPL00000002/price?period=1m": {
+"f": "e3bae359a6fd9755.json"
+},
+"/positions/SMPL00000002/price?period=1y": {
+"f": "0063937c7c698abf.json"
+},
+"/positions/SMPL00000002/price?period=3m": {
+"f": "a4205f4e381e536e.json"
+},
+"/positions/SMPL00000002/price?period=6m": {
+"f": "8cc4589b8a68958a.json"
+},
+"/positions/SMPL00000002/price?period=hold": {
+"f": "f623e62a24703fa8.json"
+},
+"/positions/SMPL00000003/price?period=1m": {
+"f": "0b2308f389f0f845.json"
+},
+"/positions/SMPL00000003/price?period=1y": {
+"f": "1e413bba445f7ced.json"
+},
+"/positions/SMPL00000003/price?period=3m": {
+"f": "4172c0c46e0ba8a0.json"
+},
+"/positions/SMPL00000003/price?period=6m": {
+"f": "d73c4fcd9c240c6f.json"
+},
+"/positions/SMPL00000003/price?period=hold": {
+"f": "f706b81a505c188c.json"
+},
+"/positions/TSLA/price?period=1m": {
+"f": "cd9cb3135d26dec0.json"
+},
+"/positions/TSLA/price?period=1y": {
+"f": "33e762a71a1a993c.json"
+},
+"/positions/TSLA/price?period=3m": {
+"f": "95d88eefd5219ab7.json"
+},
+"/positions/TSLA/price?period=6m": {
+"f": "66c13ad718c02fb4.json"
+},
+"/positions/TSLA/price?period=hold": {
+"f": "f0a254086ce3d5f7.json"
+},
+"/positions/VOO/price?period=1m": {
+"f": "aafe3fc354c057d2.json"
+},
+"/positions/VOO/price?period=1y": {
+"f": "7f4dfa4318e6dd6e.json"
+},
+"/positions/VOO/price?period=3m": {
+"f": "058c0dac461b7dd1.json"
+},
+"/positions/VOO/price?period=6m": {
+"f": "30699f1cca4ef966.json"
+},
+"/positions/VOO/price?period=hold": {
+"f": "f9701ea9955298ff.json"
+},
+"/positions/movers?date_from=2025-09-01&date_to=2026-10-23": {
+"f": "188d6d1ef47eb857.json"
+},
+"/positions/movers?date_from=2025-10-23&date_to=2026-10-23": {
+"f": "01d3335e7c875d51.json"
+},
+"/positions/movers?date_from=2026-04-23&date_to=2026-10-23": {
+"f": "df232021f5b63848.json"
+},
+"/positions/movers?date_from=2026-07-23&date_to=2026-10-23": {
+"f": "e9e9f116fe1a078e.json"
+},
+"/positions/movers?date_from=2026-09-23&date_to=2026-10-23": {
+"f": "b6bd5eb25fadea12.json"
+},
+"/positions/movers?date_from=2026-10-16&date_to=2026-10-23": {
+"f": "08913b3c6061d1e7.json"
+},
+"/positions/sparklines?days=92": {
+"f": "60eb3fd56db64d5e.json"
+},
+"/positions/sparklines?days=92&scope_code=BROKERAGE": {
+"f": "c8cc7343dd9b678f.json"
+},
+"/positions/sparklines?days=92&scope_code=CRYPTO": {
+"f": "bdc331347be34716.json"
+},
+"/positions/sparklines?days=92&scope_code=ISA": {
+"f": "ce6acb222851d82d.json"
+},
+"/positions/sparklines?days=92&scope_code=PENSION_SAVINGS": {
+"f": "eb9a083e67e0624f.json"
+},
+"/positions/sparklines?days=92&scope_code=RETIREMENT": {
+"f": "7c9284363b8e7828.json"
+},
+"/positions/trades?date_from=2025-09-01&date_to=2026-10-23": {
+"f": "fa4b7754ca2783c1.json"
+},
+"/positions/trades?date_from=2025-10-23&date_to=2026-10-23": {
+"f": "718c49d037f33b68.json"
+},
+"/positions/trades?date_from=2026-04-23&date_to=2026-10-23": {
+"f": "6696aecda7bdd177.json"
+},
+"/positions/trades?date_from=2026-07-23&date_to=2026-10-23": {
+"f": "4c3fd3c22285a31f.json"
+},
+"/positions/trades?date_from=2026-09-23&date_to=2026-10-23": {
+"f": "aebfd6f63562244a.json"
+},
+"/positions/trades?date_from=2026-10-16&date_to=2026-10-23": {
+"f": "bf445cd419b5697b.json"
+},
+"/positions/trades?preset=1m": {
+"f": "413936b339691e26.json"
+},
+"/positions/trades?preset=1m&scope_code=BROKERAGE": {
+"f": "8bb333a2fb466b85.json"
+},
+"/positions/trades?preset=1m&scope_code=CRYPTO": {
+"f": "6b151a6bc2fe31da.json"
+},
+"/positions/trades?preset=1m&scope_code=ISA": {
+"f": "52659fbca2b8bbaf.json"
+},
+"/positions/trades?preset=1m&scope_code=PENSION_SAVINGS": {
+"f": "b25c29e059f1b22e.json"
+},
+"/positions/trades?preset=1m&scope_code=RETIREMENT": {
+"f": "88552be19d6b189f.json"
+},
+"/positions/trades?preset=1y": {
+"f": "1533dc2fa20b2ba1.json"
+},
+"/positions/trades?preset=1y&scope_code=BROKERAGE": {
+"f": "3dee9cfc7bbc0961.json"
+},
+"/positions/trades?preset=1y&scope_code=CRYPTO": {
+"f": "57edaeb11dfdcdb5.json"
+},
+"/positions/trades?preset=1y&scope_code=ISA": {
+"f": "8e60f0a447a42727.json"
+},
+"/positions/trades?preset=1y&scope_code=PENSION_SAVINGS": {
+"f": "4f127144a25b1609.json"
+},
+"/positions/trades?preset=1y&scope_code=RETIREMENT": {
+"f": "886e487a5249b238.json"
+},
+"/positions/trades?preset=3m": {
+"f": "e05b8af5944c6216.json"
+},
+"/positions/trades?preset=3m&scope_code=BROKERAGE": {
+"f": "e755ffe57bd4eb18.json"
+},
+"/positions/trades?preset=3m&scope_code=CRYPTO": {
+"f": "f332b9d68754b999.json"
+},
+"/positions/trades?preset=3m&scope_code=ISA": {
+"f": "9fb73641678e5548.json"
+},
+"/positions/trades?preset=3m&scope_code=PENSION_SAVINGS": {
+"f": "260e5341a4cd98cc.json"
+},
+"/positions/trades?preset=3m&scope_code=RETIREMENT": {
+"f": "91b89df4e0f46b5a.json"
+},
+"/positions/trades?preset=6m": {
+"f": "1a5ca6cf37959505.json"
+},
+"/positions/trades?preset=6m&scope_code=BROKERAGE": {
+"f": "d9205e99c2a3da81.json"
+},
+"/positions/trades?preset=6m&scope_code=CRYPTO": {
+"f": "b509ce8ad52c511f.json"
+},
+"/positions/trades?preset=6m&scope_code=ISA": {
+"f": "2243dab4d5c012ee.json"
+},
+"/positions/trades?preset=6m&scope_code=PENSION_SAVINGS": {
+"f": "58d03b0967531a37.json"
+},
+"/positions/trades?preset=6m&scope_code=RETIREMENT": {
+"f": "9cb82d12b92cf6f5.json"
+},
+"/positions/trades?preset=all": {
+"f": "687757e942b27b9c.json"
+},
+"/positions/trades?preset=all&scope_code=BROKERAGE": {
+"f": "93f6aa1fd4a8491f.json"
+},
+"/positions/trades?preset=all&scope_code=CRYPTO": {
+"f": "736de4f8ca590788.json"
+},
+"/positions/trades?preset=all&scope_code=ISA": {
+"f": "ad912c29f0186e0b.json"
+},
+"/positions/trades?preset=all&scope_code=PENSION_SAVINGS": {
+"f": "89ce32b6ee529fd9.json"
+},
+"/positions/trades?preset=all&scope_code=RETIREMENT": {
+"f": "47de3f1d2ce39a13.json"
+},
+"/positions/trades?preset=ytd": {
+"f": "0ed654919ae6730a.json"
+},
+"/positions/trades?preset=ytd&scope_code=BROKERAGE": {
+"f": "d17830c4b3c99b31.json"
+},
+"/positions/trades?preset=ytd&scope_code=CRYPTO": {
+"f": "c7af0cd2072f2082.json"
+},
+"/positions/trades?preset=ytd&scope_code=ISA": {
+"f": "c74c3bbc7ca3b2ad.json"
+},
+"/positions/trades?preset=ytd&scope_code=PENSION_SAVINGS": {
+"f": "6f3be8b58fa5d2cd.json"
+},
+"/positions/trades?preset=ytd&scope_code=RETIREMENT": {
+"f": "928a1a745b4fb15a.json"
+},
+"/positions?exclude_cash=true&view=account_product": {
+"f": "c55806d9d2ea114c.json"
+},
+"/positions?scope_code=BROKERAGE&view=product": {
+"f": "ff91db4e48c80dcd.json"
+},
+"/positions?scope_code=CRYPTO&view=product": {
+"f": "131fcd859fa6a057.json"
+},
+"/positions?scope_code=ISA&view=product": {
+"f": "0525acb9edcd43e4.json"
+},
+"/positions?scope_code=PENSION_SAVINGS&view=product": {
+"f": "da2736ed6ff5cb37.json"
+},
+"/positions?scope_code=RETIREMENT&view=product": {
+"f": "e69f9cb9088457e0.json"
+},
+"/positions?status=closed": {
+"f": "f405b029d584d347.json"
+},
+"/positions?view=account_product": {
+"f": "6977c161580daccb.json"
+},
+"/positions?view=product": {
+"f": "70d898601a9a25bf.json"
+},
+"/risk/xray": {
+"f": "b06442ac67a0b497.json"
+}
+}

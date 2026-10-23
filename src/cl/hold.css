@@ -1,0 +1,27 @@
+/* 보유 — 계좌 비중 막대(칸 라벨 · 범례만, 막대 표면은 cl.css .cl-vbar) · 자산 구성 도넛.
+   화면 CSS 가 cl.css 보다 먼저 실리므로 .cl-app 범위 */
+
+/* 계좌 비중 */
+.cl-app .cl-acct-viz .cl-panel-head{margin-bottom:0}
+.cl-app .hold-vcol{display:flex;flex-direction:column;gap:8px;min-width:0}
+.cl-app .hold-vbar > *{flex-direction:row;align-items:center}
+.cl-app .hold-vlab{display:block;width:max-content;font-family:var(--f-ui);font-size:12px;line-height:1.2;color:var(--ink);opacity:1}
+.cl-app .hold-vlab b{font-weight:650}
+.cl-app .hold-vbar > [data-fit="0"] .hold-vlab{visibility:hidden}
+.cl-app .hold-vleg{list-style:none;margin:0;padding:0;display:flex;flex-wrap:wrap;gap:2px 12px}
+.cl-app .hold-vleg-row{display:inline-flex;align-items:center;gap:6px;min-height:28px;padding:2px 6px;border:0;border-radius:6px;background:none;font:inherit;font-size:13px;color:var(--body);white-space:nowrap;text-align:left}
+.cl-app .hold-vleg-row i{width:10px;height:10px;border-radius:3px;flex:none}
+.cl-app .hold-vleg-row b{font-weight:500;color:var(--ink)}
+.cl-app .hold-vleg-p{color:var(--muted)}
+.cl-app button.hold-vleg-row{cursor:pointer}
+@media (hover:hover){.cl-app button.hold-vleg-row:hover{background:var(--sunk)}}
+.cl-app button.hold-vleg-row[aria-pressed="true"]{background:var(--accent-wash)}
+@media (pointer:coarse){.cl-app .hold-vleg-row{min-height:44px}}
+
+/* 자산 구성 */
+.cl-app .hold-mixes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 32px;align-items:start}
+.cl-app .hold-mix{display:flex;flex-direction:column;align-items:center;gap:10px;min-width:0}
+.cl-app .hold-mix-k{align-self:flex-start;margin:0;font-size:13px;font-weight:600;color:var(--muted)}
+.cl-app .hold-mix .cl-donut{max-width:340px}
+.cl-app .hold-mix-one{align-self:flex-start;margin:0;font-size:15px;color:var(--ink)}
+@media (max-width:640px){.cl-app .hold-mixes{grid-template-columns:minmax(0,1fr)}}

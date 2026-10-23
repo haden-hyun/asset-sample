@@ -1,0 +1,45 @@
+/* 셸 밖(로그인 · 오류 경계) 버튼 · 폼. 셸 안은 cl/cl.css 의 cl-* 규칙 */
+
+/* 버튼 */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-2);
+  padding: var(--sp-2) var(--sp-4);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  color: var(--ink);
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-medium);
+  line-height: var(--lh-sm);
+  white-space: nowrap;
+  transition: background var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease);
+}
+.btn:hover:not(:disabled) { background: var(--surface-hover); border-color: var(--rule-ink); }
+.btn:disabled { color: var(--ink-faint); background: var(--paper-sunk); }
+
+.btn--quiet { border-color: transparent; background: none; color: var(--ink-muted); }
+.btn--quiet:hover:not(:disabled) { background: var(--surface-hover); color: var(--ink); border-color: transparent; }
+.btn--sm { padding: var(--sp-1) var(--sp-2); font-size: var(--fs-xs); }
+
+/* 폼 */
+.field { display: flex; flex-direction: column; gap: var(--sp-1); min-width: 0; }
+.field > label {
+  font-size: var(--fs-xs);
+  letter-spacing: var(--tracking-label);
+  color: var(--ink-muted);
+  font-weight: var(--fw-medium);
+}
+
+.field input, .field select {
+  padding: var(--sp-2) var(--sp-3);
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--rule-strong);
+  border-radius: var(--radius-sm);
+  font-size: var(--fs-sm);
+  min-width: 0;
+}
+.field input:focus, .field select:focus { border-color: var(--accent); }
