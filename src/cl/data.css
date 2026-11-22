@@ -12,6 +12,9 @@
 .cl-app .cl-me-err{flex-basis:100%;margin:8px 0 0;font-size:13px;color:var(--ink);font-weight:500;word-break:keep-all;text-wrap:pretty}
 .cl-app .cl-me-warn{margin:12px 0 0;font-size:13px;color:var(--body);word-break:keep-all;text-wrap:pretty}
 .cl-app .cl-me-err::before{content:"! ";font-weight:700}
+.cl-app .cl-me-warn-x{color:var(--ink);font-weight:500}
+.cl-app .cl-me-warn-x::before{content:"! ";font-weight:700}
+.cl-app .cl-me-preview-x{color:var(--ink);font-weight:500}
 .cl-app .cl-me-run{margin-top:24px;padding:16px 18px;border-radius:var(--r-control);background:var(--sunk);border:1px solid var(--hair)}
 .cl-app .cl-me-run-head{display:flex;flex-wrap:wrap;align-items:center;gap:8px;font-size:14px;color:var(--body)}
 .cl-app .cl-me-tag{margin-left:0;color:var(--ink);font-weight:600}

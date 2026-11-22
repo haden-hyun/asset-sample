@@ -63,6 +63,15 @@ function confText(c) {
   return `총 납입액 ${won(c.total_purchase_amount)}원`;
 }
 
+/** 총 납입액 변동 — 문구 `+27.8%` · 크게 변동(감소 또는 ±50% 초과) 여부. 직전이 0 이하면 비율 없음 */
+const BIG_CHANGE = 0.5;
+function totalChange(old, next) {
+  if (next == null || Number.isNaN(next) || next === old) return { text: "", big: false };
+  const pct = old > 0 ? (next - old) / old : null;
+  const text = pct == null ? "" : `${pct > 0 ? "+" : "−"}${(Math.abs(pct) * 100).toFixed(1)}%`;
+  return { text, big: next < old || (pct != null && Math.abs(pct) > BIG_CHANGE) };
+}
+
 function Field({ label, hint, value, onChange, id }) {
   return (
     <label className="cl-field cl-me-f" htmlFor={id}>{label}
@@ -74,7 +83,7 @@ function Field({ label, hint, value, onChange, id }) {
 
 /** 최종 확인 창 — 저장할 값을 다시 보여 주고 '저장'을 눌러야 Airflow 를 실행한다.
  *  처음 초점 = 취소(덜 위험한 쪽), Tab 은 창 안에서 돈다, Esc·바깥 누름 = 취소, 닫히면 초점은 폼의 저장 버튼으로 */
-function ConfirmDialog({ rows, notes, onCancel, onConfirm }) {
+function ConfirmDialog({ rows, notes, alerts, onCancel, onConfirm }) {
   const ref = useRef(null);
   const tid = useId();
   useEffect(() => {
@@ -98,6 +107,7 @@ function ConfirmDialog({ rows, notes, onCancel, onConfirm }) {
         <dl className="cl-me-dlg-rows">
           {rows.map(([k, v]) => <div key={k}><dt>{k}</dt><dd className="cl-num">{v}</dd></div>)}
         </dl>
+        {alerts.map((n) => <p key={n} className="cl-me-warn cl-me-warn-x" role="alert">{n}</p>)}
         {notes.map((n) => <p key={n} className="cl-me-warn">{n}</p>)}
         <div className="cl-me-dlg-btns">
           <button type="button" className="cl-btn-ghost" onClick={onCancel}>취소</button>
@@ -134,6 +144,7 @@ function EntryForm({ acct, disabled, pending, onSubmitted }) {
   const newTotal = fund ? null : direct ? num(v.total) : deposit > 0 ? prev + deposit : null;
   const later = ledger.filter(([d]) => d > day).length;
   const preview = !pending && newTotal != null && !Number.isNaN(newTotal) ? newTotal : null;
+  const change = totalChange(old, preview);
 
   const cancelConfirm = useCallback(() => setConfirm(null), []);
 
@@ -154,19 +165,21 @@ function EntryForm({ acct, disabled, pending, onSubmitted }) {
     if (!fund && direct && body.total_purchase_amount < 0) return setErr("총 납입액은 0 이상이어야 합니다");
     const lows = ledger.filter(([d]) => d > day).map(([, t]) => Number(t));
     if (!fund && lows.length && Math.min(...lows) + (newTotal - old) < 0) return setErr("이후 기록의 총 납입액이 음수가 됩니다");
+    const chg = fund ? { text: "", big: false } : totalChange(old, newTotal);
     const rows = [["계좌", acct.account_name], [fund ? "결제일" : "납입일", day || todayKst()]];
     if (fund) {
       rows.push(["좌수", qtyText(body.holding_quantity)], ["납입원금", `${won(body.total_purchase_amount)}원`],
         ["평가금액", body.evaluation_amount != null ? `${won(body.evaluation_amount)}원` : "—"]);
     } else {
       if (!direct) rows.push(["납입액", `${won(body.deposit_amount)}원`]);
-      rows.push(["총 납입액", `${won(old)} → ${won(newTotal)}원`]);
+      rows.push(["총 납입액", `${won(old)} → ${won(newTotal)}원${chg.text ? ` (${chg.text})` : ""}`]);
     }
+    const alerts = chg.big ? [`총 납입액이 ${newTotal < old ? "줄어듭니다" : "크게 변동합니다"}${chg.text ? ` (${chg.text})` : ""} — 계좌와 금액이 맞는지 확인하세요`] : [];
     const notes = [];
     if (exists) notes.push(`${md(day)} 기록을 덮어씁니다`);
     if (!fund && later && newTotal !== old) notes.push(`이후 기록 ${later}건 ${newTotal > old ? "+" : "−"}${won(Math.abs(newTotal - old))}원`);
     setErr(null);
-    setConfirm({ body, rows, notes });
+    setConfirm({ body, rows, notes, alerts });
   }
 
   async function send() {
@@ -219,10 +232,14 @@ function EntryForm({ acct, disabled, pending, onSubmitted }) {
       {exists && <p className="cl-me-warn" role="note">{md(day)} 기록을 덮어씁니다</p>}
       <div className="cl-me-actions">
         <button type="submit" className="cl-btn" disabled={disabled || busy || pending || (past && !backdate)}>{busy || pending ? "저장 중…" : "저장"}</button>
-        {preview != null && <span className="cl-me-preview cl-num">총 납입액 {won(preview)}원</span>}
+        {preview != null && (
+          <span className={`cl-me-preview cl-num${change.big ? " cl-me-preview-x" : ""}`}>
+            총 납입액 {won(old)} → {won(preview)}원{change.text && ` (${change.text})`}{change.big && " · 확인 필요"}
+          </span>
+        )}
         {err && <p className="cl-me-err" role="alert">{err}</p>}
       </div>
-      {confirm && <ConfirmDialog rows={confirm.rows} notes={confirm.notes} onCancel={cancelConfirm} onConfirm={send} />}
+      {confirm && <ConfirmDialog rows={confirm.rows} notes={confirm.notes} alerts={confirm.alerts} onCancel={cancelConfirm} onConfirm={send} />}
     </form>
   );
 }
